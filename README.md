@@ -6,7 +6,9 @@
 
 ## 玩家使用
 
-有安装包时，下载 `HexARAM-Assistant-0.1.0-Windows-x64-Setup.exe`，运行安装向导。当前包没有付费代码签名，Windows 可能展示发行者未知提示；请核对来源和随包 SHA-256。不需要安装 Node.js。
+**[下载 Windows x64 测试版安装包](https://github.com/dddlllfff/hexaram-assistant/releases/download/v0.1.0/HexARAM-Assistant-0.1.0-Windows-x64-Setup.exe)** · [版本说明与 SHA-256 校验文件](https://github.com/dddlllfff/hexaram-assistant/releases/tag/v0.1.0)
+
+下载 `HexARAM-Assistant-0.1.0-Windows-x64-Setup.exe` 后运行安装向导，无需安装 Node.js。当前包没有 Windows 代码签名，系统可能展示发行者未知提示；请核对来源和随包 SHA256SUMS.txt。此版本标记为 Pre-release，欢迎通过 Issues 反馈。
 
 1. 选择英雄；切换英雄会清空此前的本局强化、候选与装备。
 2. 将游戏里的海克斯加入候选区（最多三个），查看各选项的推荐理由。
