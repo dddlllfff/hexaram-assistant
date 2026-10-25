@@ -1,17 +1,19 @@
 # GitHub 与 Windows 发布
 
-本目录是可直接提交的 Git 仓库。尚未自动连接任何 GitHub 账号，也未代表维护者创建远程公开仓库。
+公开仓库：https://github.com/dddlllfff/hexaram-assistant 。源码、贡献模板与 Windows 工作流均已上传。
 
-## 首次上传
+## 克隆与贡献
 
-在 GitHub 新建名为 `hexaram-assistant` 的空仓库，不预创建 README 或许可证。在本地仓库执行（将 OWNER 换成实际账号）：
+克隆仓库后，按 README 安装依赖并开发。其他贡献者可以先 Fork，再提交 Pull Request：
 
 ```powershell
-git remote add origin https://github.com/OWNER/hexaram-assistant.git
-git push -u origin main
+git clone https://github.com/dddlllfff/hexaram-assistant.git
+cd hexaram-assistant
+pnpm install --frozen-lockfile
+pnpm dev
 ```
 
-若工作目录尚无提交，可先 `git add .`、`git commit -m "Initial Windows manual planner"`。不要上传 node_modules、release、个人配置或凭据。
+维护者通过 Git 推送时，需配置自己的 GitHub 身份验证。Chrome 的登录状态不会自动成为 Git 命令的凭据。不要上传 node_modules、release、个人配置或凭据。
 
 ## 自动检查
 
