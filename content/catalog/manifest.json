@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "patch": "16.21",
+  "dataDragonVersion": "16.21.1",
+  "generatedAt": "2026-10-25T10:23:46.642Z",
+  "cnFileTime": "2026-10-21 15:57:56",
+  "champions": 173,
+  "augments": 249,
+  "descriptions": 210,
+  "community": {
+    "attribution": "Data: arammayhem.com",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "url": "https://arammayhem.com/data/",
+    "patch": null,
+    "scope": "community combination references only; not CN current-patch statistics"
+  },
+  "sources": {
+    "cn": {
+      "url": "https://game.gtimg.cn/images/lol/act/img/js/heroList/hero_list.js",
+      "sha256": "377940640e45ee455cf9d86a5a70a135522586c584a67036408308de44296d30"
+    },
+    "champions": {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/champion.json",
+      "sha256": "494f3b072d60063c93818d5e608f6d8c503f8b194eca929ff325b4e3bfa29258"
+    },
+    "items": {
+      "url": "https://ddragon.leagueoflegends.com/cdn/16.21.1/data/zh_CN/item.json",
+      "sha256": "6895cb9464d361e0ac99c9771c21fa452a5a12de7a22d6cfa12c610d24741c8e"
+    },
+    "augments": {
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/zh_cn/v1/cherry-augments.json",
+      "sha256": "68e8dca7f4fc3426a4754604da7c96df7b218d5dbac1ae189a339306466eee63"
+    },
+    "english": {
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/v1/cherry-augments.json",
+      "sha256": "4f8967adfbf22933b0762396be2bd8483428062ee18f879f196e9100910ffc67"
+    },
+    "pools": {
+      "url": "https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/zh_cn/v1/augment-lists.json",
+      "sha256": "bdb432a1b7e3e64bbb6a0fa348fc8d3e42014cc0bf3c0b4c249e15fa5f28a8fb"
+    },
+    "strings": {
+      "url": "https://raw.communitydragon.org/16.21/game/zh_cn/data/menu/en_us/lol.stringtable.json",
+      "sha256": "5fca25e067fa2b83701bb407f9c68707fd50056785cbb22fee7790b697b985d7"
+    },
+    "community": {
+      "url": "https://arammayhem.com/data/v1/index.json",
+      "sha256": "7cf74fc796b88855ed62c9d26fb2ae2de1406872520fb1a3bacc8d0cdff6c5e6"
+    },
+    "combos": {
+      "url": "https://arammayhem.com/data/v1/latest/combos.json",
+      "sha256": "130ebbbfb2941a4441f3c9fc089037ae76478662a3ed6627758724402bab5cdb"
+    }
+  }
+}

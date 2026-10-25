@@ -2,13 +2,13 @@
 
 一个面向 **Windows 10/11 x64** 的海克斯大乱斗开源玩法助手。手动选择英雄、记录已选海克斯、比较本轮候选，获得联动的流派、装备与加点方案。所有推荐在本地完成，无需账号、AI 服务或 API Key。
 
-> v0.1.0 是可运行的社区种子版：12 位英雄、16 个强化、25 套玩法方向。机制与攻略尚未完成当前国服版本的实战验证，不能视为版本强度榜。效果与中文名称以游戏内为准。
+> v0.2.0-beta.1 数据扩展版：173 位英雄、244 个可命名强化、241 条原创编辑路线。国服静态资料已对齐 16.21，本机客户端文件版本核对为 16.21.829.9102；推荐仍待逐英雄实战验证，不能视为国服统计强度榜。详见 [网站调研与版本适配记录](docs/SOURCE_RESEARCH.md)。
 
 ## 玩家使用
 
-**[下载 Windows x64 测试版安装包](https://github.com/dddlllfff/hexaram-assistant/releases/download/v0.1.0/HexARAM-Assistant-0.1.0-Windows-x64-Setup.exe)** · [版本说明与 SHA-256 校验文件](https://github.com/dddlllfff/hexaram-assistant/releases/tag/v0.1.0)
+**[下载 Windows x64 数据扩展测试版](https://github.com/dddlllfff/hexaram-assistant/releases/download/v0.2.0-beta.1/HexARAM-Assistant-0.2.0-beta.1-Windows-x64-Setup.exe)** · [版本说明与 SHA-256 校验文件](https://github.com/dddlllfff/hexaram-assistant/releases/tag/v0.2.0-beta.1)
 
-下载 `HexARAM-Assistant-0.1.0-Windows-x64-Setup.exe` 后运行安装向导，无需安装 Node.js。当前包没有 Windows 代码签名，系统可能展示发行者未知提示；请核对来源和随包 SHA256SUMS.txt。此版本标记为 Pre-release，欢迎通过 Issues 反馈。
+下载 `HexARAM-Assistant-0.2.0-beta.1-Windows-x64-Setup.exe` 后运行安装向导，无需安装 Node.js。当前包没有 Windows 代码签名，系统可能展示发行者未知提示；请核对来源和随包 SHA256SUMS.txt。此版本标记为 Pre-release，欢迎通过 Issues 反馈。
 
 1. 选择英雄；切换英雄会清空此前的本局强化、候选与装备。
 2. 将游戏里的海克斯加入候选区（最多三个），查看各选项的推荐理由。
@@ -67,23 +67,26 @@ tests/                   规则、端到端及 Windows Electron 测试
 
 候选预览与实际已选分离。先检查控制、位移、治疗等触发条件，再用英雄基础路线、已选机制、已有装备与偏好比较流派。普通暴击率不会自行解锁技能暴击。手动锁定的路线不会自动切换。评分只是内部启发式排序，界面不展示虚构胜率。
 
-完整六件路线包含鞋子。按当前敌方压力给出条件替换；已有路线外装备会提示投入成本。第一版不计算金币、背包合成、实时伤害或装备售价，也不识别实际已点技能；技能表假设此前遵循该路线，转型时需按实际技能调整。
+常规六件路线包含鞋子，卡西奥佩娅单独处理。按当前敌方压力给出条件替换，并检查常见互斥装备组；已有路线外装备会提示投入成本。展示下一件总价与合成组件，不计算实时金币、实际背包合成或伤害。普通技能表假设此前遵循该路线，杰斯单独处理；乌迪尔和厄斐琉斯展示特殊加点说明。
 
 ## 当前边界
 
-- 只收录 12 位英雄与 16 个示例强化；没有全量版本攻略。
+- 英雄目录全量 173 位，每位至少一个编辑基线。241 条路线有基础建议与精编内容之分，没有逐条国服实战验证。
+- 249 条客户端配置记录中排除 5 条系统事件技能记录，展示 244 个可命名强化；210 个机制文本来自客户端，其余使用公告和人工核对摘要。配置池不等于每位英雄当局可刷池。
 - 未接入 LCU、Live Client Data、OCR、悬浮侧栏或自动更新。
 - 没有读取进程内存、注入、自动选取、自动购买或自动加点。
 - 英雄与装备采用原创文字占位设计，未随包分发游戏图标。
 - 种子数据与实际国服版本可能存在差异；发布稳定攻略前必须逐项验证。
 
-后续优先事项：完善实测记录 → 扩充数据 → 验证目标地区允许使用的信息接口 → 增加可纠正的自动获取。
+后续优先事项：逐英雄实测 → 完善交互与可刷条件 → 接入获得授权的模式统计 → 增加可纠正的自动获取。
+
+目录可通过 `pnpm data:sync` 从固定 16.21 来源重建，导入时校验版本与许可，记录来源哈希。OP.GG 提供站外核对入口，不批量搬运其数据。社区组合线索来自 **[Data: arammayhem.com](https://arammayhem.com/data/)**，遵循 CC BY 4.0；其比赛补丁和地区未确认，不纳入推荐评分。
 
 ## 社区贡献与发布
 
 参见 [CONTRIBUTING.md](CONTRIBUTING.md)、[数据规范](docs/CONTENT.md)、[架构说明](docs/ARCHITECTURE.md)、[发布说明](docs/RELEASING.md)。问题模板和 PR 模板已提供。CI 在 Windows 上进行类型/规则检查、浏览器交互测试和桌面冒烟测试。
 
-代码采用 MIT 许可。游戏名称、商标及未来可能引入的素材属于各自权利人，MIT 不授予这些资产的权利。攻略文件中的原创整理可按 MIT 使用，但链接到的第三方页面仍遵循其自己的许可。
+代码采用 MIT 许可。游戏名称、商标和原始游戏资料属于各自权利人，MIT 不授予这些资产的权利。社区组合关联数据遵循 CC BY 4.0，详见 [第三方资料与许可](THIRD_PARTY_NOTICES.md)；链接到的第三方页面仍遵循其自己的条款。
 
 HexARAM Assistant isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games, and all associated properties are trademarks or registered trademarks of Riot Games, Inc.
 

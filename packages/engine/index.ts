@@ -1,6 +1,9 @@
 import { champions } from '../../content/champions';
 import { augments } from '../../content/augments';
 import type { Build, Session, Skill, Tag } from './types';
+import itemCatalog from '../../content/catalog/items.json';
+import communityCombos from '../../content/catalog/combos.json';
+export { default as catalogManifest } from '../../content/catalog/manifest.json';
 export { champions, augments };
 export const allItems = [
   ...new Set([
@@ -13,6 +16,7 @@ export const allItems = [
     '莫雷洛秘典',
     '女妖面纱',
     '冰霜之心',
+    ...itemCatalog.map((i) => i.name),
   ]),
 ].sort((a, b) => a.localeCompare(b, 'zh-CN'));
 export function freshSession(): Session {
@@ -76,10 +80,18 @@ export function compatible(id: string, session: Session): boolean {
   const champion = champions.find((c) => c.id === session.championId);
   if (!augment || !champion || augment.excludes?.some((id) => session.selected.includes(id)))
     return false;
-  const available = new Set<Tag>([
-    ...champion.tags,
-    ...session.selected.flatMap((id) => augments.find((a) => a.id === id)?.tags ?? []),
-  ]);
+  if (augment.manaOnly && champion.resource !== '法力') return false;
+  if (augment.rangedOnly && (champion.range ?? 0) < 300) return false;
+  if (augment.allySupportOnly && !champion.allySupport) return false;
+  const selected = session.selected
+    .filter((x) => x !== id)
+    .map((x) => augments.find((a) => a.id === x))
+    .filter((a) => !!a);
+  if (augment.conflictsWithTags?.some((t) => selected.some((a) => a.tags.includes(t))))
+    return false;
+  if (selected.some((a) => a.conflictsWithTags?.some((t) => augment.tags.includes(t))))
+    return false;
+  const available = new Set<Tag>([...champion.tags, ...selected.flatMap((a) => a.grants ?? [])]);
   // requires is any-of: shields OR healing qualify for Critical Healing.
   return !augment.requires || augment.requires.some((tag) => available.has(tag));
 }
@@ -103,17 +115,20 @@ export function rankBuilds(session: Session) {
         }
       }
       const ready =
-        !build.id.endsWith('-crit') ||
-        !build.tags.includes('spell') ||
-        session.selected.includes('jeweled') ||
-        champion.id === 'Garen';
+        !build.requiredAugments?.length ||
+        build.requiredAugments.every((id) => session.selected.includes(id));
       if (!ready) score -= 40;
+      if (ready && build.requiredAugments?.length) score += 28;
+      const selectedKeys = session.selected.map((id) =>
+        augments.find((a) => a.id === id)?.key?.toLowerCase(),
+      );
+      if (selectedKeys.includes('giftofthedrowned') && build.tags.includes('tank')) score -= 40;
       if (
-        build.id.endsWith('-crit') &&
-        build.tags.includes('spell') &&
-        session.selected.includes('jeweled')
+        selectedKeys.includes('ticklemonster') &&
+        build.tags.includes('crit') &&
+        !build.tags.includes('onhit')
       )
-        score += 28;
+        score -= 25;
       score += session.ownedItems.filter((i) => build.items.includes(i)).length * 7;
       if (
         session.preference === 'steady' &&
@@ -146,6 +161,7 @@ export function recommend(session: Session) {
   const ranked = rankBuilds(session);
   const active = ranked.find((r) => r.build.id === session.pinnedBuildId) ?? ranked[0];
   const options = session.candidates
+    .filter((id) => augments.some((a) => a.id === id))
     .map((id) => {
       const augment = augments.find((a) => a.id === id)!;
       const valid = compatible(id, session);
@@ -160,6 +176,8 @@ export function recommend(session: Session) {
       if (session.preference === 'steady') score -= augment.risk * 5;
       else score += augment.risk * (session.preference === 'fun' ? 4 : 2);
       if (!valid) score = -999;
+      if (augment.status === '机制待补充') score = -500;
+      if (!augment.tags.length) score -= 80;
       const changes = after[0].build.id !== active.build.id;
       return {
         augment,
@@ -167,20 +185,25 @@ export function recommend(session: Session) {
         valid,
         changes,
         nextBuild: after[0].build.name,
-        reason: !valid
-          ? '当前英雄与已选强化缺少所需触发机制，暂不建议。'
-          : id === 'donation'
-            ? '立即加快装备成型；没有额外机制门槛。'
-            : matches.length
-              ? `配合当前路线的${matches.map((t) => tagLabel[t]).join('、')}。`
-              : `更偏向${after[0].build.name}，需要权衡已有装备投入。`,
+        reason:
+          augment.status === '机制待补充'
+            ? '机制文本未核对，暂不自动给强弱结论，请查看游戏内原文。'
+            : !augment.tags.length
+              ? '机制已有资料，但收益规则尚不充分；请根据原文与当前投入判断。'
+              : !valid
+                ? '当前英雄与已选强化缺少所需触发机制，暂不建议。'
+                : id === 'donation'
+                  ? '立即加快装备成型；没有额外机制门槛。'
+                  : matches.length
+                    ? `配合当前路线的${matches.map((t) => tagLabel[t]).join('、')}。`
+                    : `更偏向${after[0].build.name}，需要权衡已有装备投入。`,
       };
     })
     .sort((a, b) => b.score - a.score || a.augment.id.localeCompare(b.augment.id));
   const build = active.build;
   const items = [...build.items];
   let adaptation = '';
-  if (session.threat !== 'balanced') {
+  if (session.threat !== 'balanced' && items.length) {
     const defensive = build.tags.includes('tank');
     const replacement =
       session.threat === 'healing'
@@ -196,15 +219,15 @@ export function recommend(session: Session) {
               ? '玛莫提乌斯之噬'
               : '女妖面纱'
           : defensive
-            ? '冰霜之心'
+            ? championResource(session) === '法力'
+              ? '冰霜之心'
+              : '兰顿之兆'
             : build.tags.includes('attack')
               ? '死亡之舞'
               : '中娅沙漏';
     if (!items.includes(replacement)) {
-      const replaceIndex =
-        session.threat === 'healing'
-          ? items.findIndex((i) => i === '多米尼克领主的致意' || i === '虚空之杖')
-          : -1;
+      const group = itemGroups.find((g) => g.includes(replacement));
+      const replaceIndex = group ? items.findIndex((i) => group.includes(i)) : -1;
       items[replaceIndex >= 0 ? replaceIndex : items.length - 1] = replacement;
     }
     adaptation = `${session.threat === 'healing' ? '敌方治疗较强' : session.threat === 'magic' ? '魔法伤害压力较大' : '物理伤害压力较大'}：考虑${replacement}。这是条件备选，不要求立即买出。`;
@@ -213,6 +236,26 @@ export function recommend(session: Session) {
     (i) => !items.includes(i) && !build.starter.includes(i),
   );
   const nextItem = items.find((i) => !session.ownedItems.includes(i));
+  const nextItemInfo = itemCatalog.find((i) => i.name === nextItem);
+  const components =
+    nextItemInfo?.from
+      .map((id) => itemCatalog.find((i) => i.id === id)?.name)
+      .filter((i): i is string => !!i) ?? [];
+  const communityHints = communityCombos
+    .filter((c) => c.championId.toLowerCase() === session.championId.toLowerCase())
+    .map((c) => ({
+      ...c,
+      matched: c.augments
+        .map((name) => augments.find((a) => normalizeName(a.english) === normalizeName(name)))
+        .filter((a): a is NonNullable<typeof a> => !!a),
+    }))
+    .filter((c) => c.matched.length && c.matched.length === c.augments.length)
+    .sort(
+      (a, b) =>
+        b.matched.filter((a) => session.selected.includes(a.id)).length -
+        a.matched.filter((a) => session.selected.includes(a.id)).length,
+    )
+    .slice(0, 5);
   return {
     ranked,
     active,
@@ -221,21 +264,38 @@ export function recommend(session: Session) {
     adaptation,
     foreign,
     nextItem,
+    nextItemInfo,
+    components,
+    communityHints,
     skills: skillOrder(build),
   };
 }
 export function skillOrder(build: Build): Skill[] {
+  if (build.skillMode === 'manual') return [];
   const counts: Record<Skill, number> = { Q: 0, W: 0, E: 0, R: 0 };
   const result: Skill[] = [];
   for (let level = 1; level <= 18; level++) {
-    const ultimate = level === 6 || level === 11 || level === 16;
+    const ultimate: boolean =
+      build.skillMode !== 'jayce' && (level === 6 || level === 11 || level === 16);
     const skill: Skill = ultimate
       ? 'R'
       : level <= 3
         ? build.opening[level - 1]
-        : build.priority.find((s) => counts[s] < 5 && counts[s] < Math.ceil(level / 2))!;
+        : build.priority.find(
+            (s) =>
+              counts[s] < (build.skillMode === 'jayce' ? 6 : (build.skillCaps?.[s] ?? 5)) &&
+              counts[s] < Math.ceil(level / 2),
+          )!;
     counts[skill]++;
     result.push(skill);
   }
   return result;
 }
+const normalizeName = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, '');
+const championResource = (s: Session) => champions.find((c) => c.id === s.championId)?.resource;
+export const itemGroups = [
+  ['多米尼克领主的致意', '凡性的提醒', '赛瑞尔达的怨恨', '界弓', '黑色切割者'],
+  ['不朽盾弓', '斯特拉克的挑战护手', '玛莫提乌斯之噬'],
+  ['虚空之杖', '蜕生'],
+  ['三相之力', '冰脉护手', '巫妖之祸'],
+];

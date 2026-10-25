@@ -1420,3 +1420,34 @@ footer {
     width: calc(100vw - 35px);
   }
 }
+.champion-grid {
+  max-height: 370px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #33435a transparent;
+  padding: 2px;
+}
+.reference-links,
+.community-hints {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 13px;
+}
+.reference-links a,
+.community-hints a {
+  color: #91cfc2;
+  border: 1px solid #33564e;
+  background: #17302d;
+  padding: 6px 9px;
+  border-radius: 4px;
+  font-size: 10px;
+  text-decoration: none;
+}
+.reference-links a:hover,
+.community-hints a:hover {
+  border-color: #72c8b4;
+}
+.library-entry small {
+  overflow-wrap: anywhere;
+}

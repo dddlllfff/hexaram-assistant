@@ -1,6 +1,6 @@
 {
   "name": "hexaram-assistant",
-  "version": "0.1.0",
+  "version": "0.2.0-beta.1",
   "private": true,
   "description": "Windows 海克斯大乱斗开源随局助手",
   "author": "HexARAM contributors",
@@ -23,7 +23,8 @@
     "dist:win": "pnpm build && electron-builder --win nsis --x64",
     "pack:win": "pnpm build && electron-builder --win --x64 --dir",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "data:sync": "node scripts/sync-catalog.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",

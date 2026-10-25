@@ -13,5 +13,9 @@ export default defineConfig({
     },
   ],
   base: './',
-  server: { port: 5173, strictPort: true },
+  server: {
+    port: 5173,
+    strictPort: true,
+    watch: { ignored: ['**/release/**', '**/test-results/**'] },
+  },
 });

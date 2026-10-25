@@ -1,0 +1,3705 @@
+[
+  {
+    "championId": "Brand",
+    "augments": ["Infernal Conduit"],
+    "url": "https://arammayhem.com/combo/brand-infernal-conduit/"
+  },
+  {
+    "championId": "Shyvana",
+    "augments": ["Marksmage"],
+    "url": "https://arammayhem.com/combo/shyvana-marksmage/"
+  },
+  {
+    "championId": "Darius",
+    "augments": ["Typhoon"],
+    "url": "https://arammayhem.com/combo/darius-typhoon/"
+  },
+  {
+    "championId": "Brand",
+    "augments": ["Magic Missile"],
+    "url": "https://arammayhem.com/combo/brand-magic-missile/"
+  },
+  {
+    "championId": "Belveth",
+    "augments": ["Mystic Punch"],
+    "url": "https://arammayhem.com/combo/belveth-mystic-punch/"
+  },
+  {
+    "championId": "Vayne",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/vayne-ethereal-weapon/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["ADAPt"],
+    "url": "https://arammayhem.com/combo/ryze-adapt/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Mind to Matter"],
+    "url": "https://arammayhem.com/combo/ryze-mind-to-matter/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Goliath"],
+    "url": "https://arammayhem.com/combo/ryze-goliath/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Mad Scientist"],
+    "url": "https://arammayhem.com/combo/ryze-mad-scientist/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Tank Engine"],
+    "url": "https://arammayhem.com/combo/ryze-tank-engine/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Quest: Wooglet's Witchcap"],
+    "url": "https://arammayhem.com/combo/ryze-quest-wooglets-witchcap/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Ultimate Revolution"],
+    "url": "https://arammayhem.com/combo/ryze-ultimate-revolution/"
+  },
+  {
+    "championId": "DrMundo",
+    "augments": ["Vampirism"],
+    "url": "https://arammayhem.com/combo/drmundo-vampirism/"
+  },
+  {
+    "championId": "Graves",
+    "augments": ["Back To Basics"],
+    "url": "https://arammayhem.com/combo/graves-back-to-basics/"
+  },
+  {
+    "championId": "Graves",
+    "augments": ["Slow And Steady"],
+    "url": "https://arammayhem.com/combo/graves-slow-and-steady/"
+  },
+  {
+    "championId": "Morgana",
+    "augments": ["Skilled Sniper"],
+    "url": "https://arammayhem.com/combo/morgana-skilled-sniper/"
+  },
+  {
+    "championId": "Caitlyn",
+    "augments": ["Twice Thrice"],
+    "url": "https://arammayhem.com/combo/caitlyn-twice-thrice/"
+  },
+  {
+    "championId": "AurelionSol",
+    "augments": ["Ice Cold"],
+    "url": "https://arammayhem.com/combo/aurelionsol-ice-cold/"
+  },
+  {
+    "championId": "Rell",
+    "augments": ["Cruelty"],
+    "url": "https://arammayhem.com/combo/rell-cruelty/"
+  },
+  {
+    "championId": "Rell",
+    "augments": ["Courage of the Colossus"],
+    "url": "https://arammayhem.com/combo/rell-courage-of-the-colossus/"
+  },
+  {
+    "championId": "TahmKench",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/tahmkench-ethereal-weapon/"
+  },
+  {
+    "championId": "Fizz",
+    "augments": ["Infernal Conduit"],
+    "url": "https://arammayhem.com/combo/fizz-infernal-conduit/"
+  },
+  {
+    "championId": "Lillia",
+    "augments": ["Infernal Conduit"],
+    "url": "https://arammayhem.com/combo/lillia-infernal-conduit/"
+  },
+  {
+    "championId": "Lillia",
+    "augments": ["Spin To Win"],
+    "url": "https://arammayhem.com/combo/lillia-spin-to-win/"
+  },
+  {
+    "championId": "Kayle",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/kayle-ethereal-weapon/"
+  },
+  {
+    "championId": "Kayle",
+    "augments": ["Infernal Conduit"],
+    "url": "https://arammayhem.com/combo/kayle-infernal-conduit/"
+  },
+  {
+    "championId": "Zaahen",
+    "augments": ["Snowball Upgrade"],
+    "url": "https://arammayhem.com/combo/zaahen-snowball-upgrade/"
+  },
+  {
+    "championId": "Veigar",
+    "augments": ["Eureka"],
+    "url": "https://arammayhem.com/combo/veigar-eureka/"
+  },
+  {
+    "championId": "Smolder",
+    "augments": ["Jeweled Gauntlet"],
+    "url": "https://arammayhem.com/combo/smolder-jeweled-gauntlet/"
+  },
+  {
+    "championId": "Smolder",
+    "augments": ["Scopiest Weapons"],
+    "url": "https://arammayhem.com/combo/smolder-scopiest-weapons/"
+  },
+  {
+    "championId": "Smolder",
+    "augments": ["Scopier Weapons"],
+    "url": "https://arammayhem.com/combo/smolder-scopier-weapons/"
+  },
+  {
+    "championId": "Smolder",
+    "augments": ["Scoped Weapons"],
+    "url": "https://arammayhem.com/combo/smolder-scoped-weapons/"
+  },
+  {
+    "championId": "Smolder",
+    "augments": ["Draw Your Sword"],
+    "url": "https://arammayhem.com/combo/smolder-draw-your-sword/"
+  },
+  {
+    "championId": "MasterYi",
+    "augments": ["Circle of Death"],
+    "url": "https://arammayhem.com/combo/masteryi-circle-of-death/"
+  },
+  {
+    "championId": "Kayn",
+    "augments": ["Dashing"],
+    "url": "https://arammayhem.com/combo/kayn-dashing/"
+  },
+  {
+    "championId": "Kayn",
+    "augments": ["Quantum Computing"],
+    "url": "https://arammayhem.com/combo/kayn-quantum-computing/"
+  },
+  {
+    "championId": "Tristana",
+    "augments": ["Draw Your Sword"],
+    "url": "https://arammayhem.com/combo/tristana-draw-your-sword/"
+  },
+  {
+    "championId": "Zed",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/zed-ethereal-weapon/"
+  },
+  {
+    "championId": "Lucian",
+    "augments": ["Vulnerability"],
+    "url": "https://arammayhem.com/combo/lucian-vulnerability/"
+  },
+  {
+    "championId": "Mel",
+    "augments": ["Infernal Conduit"],
+    "url": "https://arammayhem.com/combo/mel-infernal-conduit/"
+  },
+  {
+    "championId": "Ornn",
+    "augments": ["Fey Magic"],
+    "url": "https://arammayhem.com/combo/ornn-fey-magic/"
+  },
+  {
+    "championId": "Sett",
+    "augments": ["Quantum Computing"],
+    "url": "https://arammayhem.com/combo/sett-quantum-computing/"
+  },
+  {
+    "championId": "Aurora",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/aurora-ethereal-weapon/"
+  },
+  {
+    "championId": "Aurora",
+    "augments": ["Dashing"],
+    "url": "https://arammayhem.com/combo/aurora-dashing/"
+  },
+  {
+    "championId": "Aurora",
+    "augments": ["OrbitalLaser"],
+    "url": "https://arammayhem.com/combo/aurora-orbitallaser/"
+  },
+  {
+    "championId": "Aurora",
+    "augments": ["Snowball Upgrade"],
+    "url": "https://arammayhem.com/combo/aurora-snowball-upgrade/"
+  },
+  {
+    "championId": "Malzahar",
+    "augments": ["Infernal Conduit"],
+    "url": "https://arammayhem.com/combo/malzahar-infernal-conduit/"
+  },
+  {
+    "championId": "TwistedFate",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/twistedfate-ethereal-weapon/"
+  },
+  {
+    "championId": "Jayce",
+    "augments": ["Slow And Steady"],
+    "url": "https://arammayhem.com/combo/jayce-slow-and-steady/"
+  },
+  {
+    "championId": "Jax",
+    "augments": ["Upgrade Sheen"],
+    "url": "https://arammayhem.com/combo/jax-upgrade-sheen/"
+  },
+  {
+    "championId": "Kaisa",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/kaisa-ethereal-weapon/"
+  },
+  {
+    "championId": "Singed",
+    "augments": ["Infernal Conduit"],
+    "url": "https://arammayhem.com/combo/singed-infernal-conduit/"
+  },
+  {
+    "championId": "MissFortune",
+    "augments": ["Skilled Sniper"],
+    "url": "https://arammayhem.com/combo/missfortune-skilled-sniper/"
+  },
+  {
+    "championId": "Galio",
+    "augments": ["Executioner"],
+    "url": "https://arammayhem.com/combo/galio-executioner/"
+  },
+  {
+    "championId": "Ekko",
+    "augments": ["Fan The Hammer"],
+    "url": "https://arammayhem.com/combo/ekko-fan-the-hammer/"
+  },
+  {
+    "championId": "Ekko",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/ekko-ethereal-weapon/"
+  },
+  {
+    "championId": "Corki",
+    "augments": ["Vulnerability"],
+    "url": "https://arammayhem.com/combo/corki-vulnerability/"
+  },
+  {
+    "championId": "Garen",
+    "augments": ["Slow And Steady"],
+    "url": "https://arammayhem.com/combo/garen-slow-and-steady/"
+  },
+  {
+    "championId": "Garen",
+    "augments": ["Blade Waltz"],
+    "url": "https://arammayhem.com/combo/garen-blade-waltz/"
+  },
+  {
+    "championId": "Garen",
+    "augments": ["Vampirism"],
+    "url": "https://arammayhem.com/combo/garen-vampirism/"
+  },
+  {
+    "championId": "Garen",
+    "augments": ["Deft"],
+    "url": "https://arammayhem.com/combo/garen-deft/"
+  },
+  {
+    "championId": "Garen",
+    "augments": ["Lightning Strikes"],
+    "url": "https://arammayhem.com/combo/garen-lightning-strikes/"
+  },
+  {
+    "championId": "Yasuo",
+    "augments": ["Shadow Runner"],
+    "url": "https://arammayhem.com/combo/yasuo-shadow-runner/"
+  },
+  {
+    "championId": "Gangplank",
+    "augments": ["Back To Basics"],
+    "url": "https://arammayhem.com/combo/gangplank-back-to-basics/"
+  },
+  {
+    "championId": "Gangplank",
+    "augments": ["Don't Blink"],
+    "url": "https://arammayhem.com/combo/gangplank-dont-blink/"
+  },
+  {
+    "championId": "Syndra",
+    "augments": ["Executioner"],
+    "url": "https://arammayhem.com/combo/syndra-executioner/"
+  },
+  {
+    "championId": "Hwei",
+    "augments": ["Cruelty"],
+    "url": "https://arammayhem.com/combo/hwei-cruelty/"
+  },
+  {
+    "championId": "Kalista",
+    "augments": ["Dashing"],
+    "url": "https://arammayhem.com/combo/kalista-dashing/"
+  },
+  {
+    "championId": "Yunara",
+    "augments": ["Master of Duality"],
+    "url": "https://arammayhem.com/combo/yunara-master-of-duality/"
+  },
+  {
+    "championId": "Yunara",
+    "augments": ["Tap Dancer"],
+    "url": "https://arammayhem.com/combo/yunara-tap-dancer/"
+  },
+  {
+    "championId": "Rumble",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/rumble-ethereal-weapon/"
+  },
+  {
+    "championId": "Darius",
+    "augments": ["Fan The Hammer"],
+    "url": "https://arammayhem.com/combo/darius-fan-the-hammer/"
+  },
+  {
+    "championId": "Darius",
+    "augments": ["Blade Waltz"],
+    "url": "https://arammayhem.com/combo/darius-blade-waltz/"
+  },
+  {
+    "championId": "Hecarim",
+    "augments": ["Ultimate Awakening"],
+    "url": "https://arammayhem.com/combo/hecarim-ultimate-awakening/"
+  },
+  {
+    "championId": "Sejuani",
+    "augments": ["Fan The Hammer"],
+    "url": "https://arammayhem.com/combo/sejuani-fan-the-hammer/"
+  },
+  {
+    "championId": "Sylas",
+    "augments": ["Dashing"],
+    "url": "https://arammayhem.com/combo/sylas-dashing/"
+  },
+  {
+    "championId": "Sylas",
+    "augments": ["Marksmage"],
+    "url": "https://arammayhem.com/combo/sylas-marksmage/"
+  },
+  {
+    "championId": "Sylas",
+    "augments": ["Final Form"],
+    "url": "https://arammayhem.com/combo/sylas-final-form/"
+  },
+  {
+    "championId": "Sylas",
+    "augments": ["Ultimate Awakening"],
+    "url": "https://arammayhem.com/combo/sylas-ultimate-awakening/"
+  },
+  {
+    "championId": "Seraphine",
+    "augments": ["Slap Around"],
+    "url": "https://arammayhem.com/combo/seraphine-slap-around/"
+  },
+  {
+    "championId": "Seraphine",
+    "augments": ["MountainSoul"],
+    "url": "https://arammayhem.com/combo/seraphine-mountainsoul/"
+  },
+  {
+    "championId": "Aphelios",
+    "augments": ["Back To Basics"],
+    "url": "https://arammayhem.com/combo/aphelios-back-to-basics/"
+  },
+  {
+    "championId": "Jhin",
+    "augments": ["Back To Basics"],
+    "url": "https://arammayhem.com/combo/jhin-back-to-basics/"
+  },
+  {
+    "championId": "Viktor",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/viktor-ethereal-weapon/"
+  },
+  {
+    "championId": "Pantheon",
+    "augments": ["Back To Basics"],
+    "url": "https://arammayhem.com/combo/pantheon-back-to-basics/"
+  },
+  {
+    "championId": "Ambessa",
+    "augments": ["Back To Basics"],
+    "url": "https://arammayhem.com/combo/ambessa-back-to-basics/"
+  },
+  {
+    "championId": "Ambessa",
+    "augments": ["Rabble Rousing"],
+    "url": "https://arammayhem.com/combo/ambessa-rabble-rousing/"
+  },
+  {
+    "championId": "Ambessa",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/ambessa-ethereal-weapon/"
+  },
+  {
+    "championId": "Ambessa",
+    "augments": ["Dashing"],
+    "url": "https://arammayhem.com/combo/ambessa-dashing/"
+  },
+  {
+    "championId": "Senna",
+    "augments": ["Dual Wield"],
+    "url": "https://arammayhem.com/combo/senna-dual-wield/"
+  },
+  {
+    "championId": "Twitch",
+    "augments": ["Infernal Conduit"],
+    "url": "https://arammayhem.com/combo/twitch-infernal-conduit/"
+  },
+  {
+    "championId": "Twitch",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/twitch-ethereal-weapon/"
+  },
+  {
+    "championId": "Mordekaiser",
+    "augments": ["Protein Shake"],
+    "url": "https://arammayhem.com/combo/mordekaiser-protein-shake/"
+  },
+  {
+    "championId": "Lux",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/lux-ethereal-weapon/"
+  },
+  {
+    "championId": "Maokai",
+    "augments": ["Circle of Death"],
+    "url": "https://arammayhem.com/combo/maokai-circle-of-death/"
+  },
+  {
+    "championId": "Sivir",
+    "augments": ["Vulnerability"],
+    "url": "https://arammayhem.com/combo/sivir-vulnerability/"
+  },
+  {
+    "championId": "Kindred",
+    "augments": ["Back To Basics"],
+    "url": "https://arammayhem.com/combo/kindred-back-to-basics/"
+  },
+  {
+    "championId": "Kindred",
+    "augments": ["Stackosaurus Rex"],
+    "url": "https://arammayhem.com/combo/kindred-stackosaurusrex/"
+  },
+  {
+    "championId": "Rengar",
+    "augments": ["Scopiest Weapons"],
+    "url": "https://arammayhem.com/combo/rengar-scopiest-weapons/"
+  },
+  {
+    "championId": "Rengar",
+    "augments": ["Scopier Weapons"],
+    "url": "https://arammayhem.com/combo/rengar-scopier-weapons/"
+  },
+  {
+    "championId": "Rengar",
+    "augments": ["Scoped Weapons"],
+    "url": "https://arammayhem.com/combo/rengar-scoped-weapons/"
+  },
+  {
+    "championId": "Riven",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/riven-ethereal-weapon/"
+  },
+  {
+    "championId": "Pyke",
+    "augments": ["Dashing"],
+    "url": "https://arammayhem.com/combo/pyke-dashing/"
+  },
+  {
+    "championId": "Talon",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/talon-ethereal-weapon/"
+  },
+  {
+    "championId": "Ezreal",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/ezreal-ethereal-weapon/"
+  },
+  {
+    "championId": "Fiora",
+    "augments": ["Blade Waltz"],
+    "url": "https://arammayhem.com/combo/fiora-blade-waltz/"
+  },
+  {
+    "championId": "Heimerdinger",
+    "augments": ["It's Killing Time"],
+    "url": "https://arammayhem.com/combo/heimerdinger-its-killing-time/"
+  },
+  {
+    "championId": "Viego",
+    "augments": ["Jeweled Gauntlet"],
+    "url": "https://arammayhem.com/combo/viego-jeweled-gauntlet/"
+  },
+  {
+    "championId": "Urgot",
+    "augments": ["Slow And Steady"],
+    "url": "https://arammayhem.com/combo/urgot-slow-and-steady/"
+  },
+  {
+    "championId": "Urgot",
+    "augments": ["Blade Waltz"],
+    "url": "https://arammayhem.com/combo/urgot-blade-waltz/"
+  },
+  {
+    "championId": "Swain",
+    "augments": ["Slap Around"],
+    "url": "https://arammayhem.com/combo/swain-slap-around/"
+  },
+  {
+    "championId": "Swain",
+    "augments": ["Cruelty"],
+    "url": "https://arammayhem.com/combo/swain-cruelty/"
+  },
+  {
+    "championId": "Aatrox",
+    "augments": ["Slap Around"],
+    "url": "https://arammayhem.com/combo/aatrox-slap-around/"
+  },
+  {
+    "championId": "Fiddlesticks",
+    "augments": ["Clown College"],
+    "url": "https://arammayhem.com/combo/fiddlesticks-clown-college/"
+  },
+  {
+    "championId": "Fiddlesticks",
+    "augments": ["Light 'em Up!"],
+    "url": "https://arammayhem.com/combo/fiddlesticks-light-em-up-121/"
+  },
+  {
+    "championId": "Katarina",
+    "augments": ["Slow And Steady"],
+    "url": "https://arammayhem.com/combo/katarina-slow-and-steady/"
+  },
+  {
+    "championId": "Katarina",
+    "augments": ["Master of Duality"],
+    "url": "https://arammayhem.com/combo/katarina-master-of-duality/"
+  },
+  {
+    "championId": "Katarina",
+    "augments": ["Vulnerability"],
+    "url": "https://arammayhem.com/combo/katarina-vulnerability/"
+  },
+  {
+    "championId": "Katarina",
+    "augments": ["Lightning Strikes"],
+    "url": "https://arammayhem.com/combo/katarina-lightning-strikes/"
+  },
+  {
+    "championId": "Katarina",
+    "augments": ["Deft"],
+    "url": "https://arammayhem.com/combo/katarina-deft/"
+  },
+  {
+    "championId": "Shaco",
+    "augments": ["Minionmancer"],
+    "url": "https://arammayhem.com/combo/shaco-minionmancer/"
+  },
+  {
+    "championId": "Udyr",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/udyr-ethereal-weapon/"
+  },
+  {
+    "championId": "Briar",
+    "augments": ["Dashing"],
+    "url": "https://arammayhem.com/combo/briar-dashing/"
+  },
+  {
+    "championId": "Briar",
+    "augments": ["Executioner"],
+    "url": "https://arammayhem.com/combo/briar-executioner/"
+  },
+  {
+    "championId": "Thresh",
+    "augments": ["Cruelty"],
+    "url": "https://arammayhem.com/combo/thresh-cruelty/"
+  },
+  {
+    "championId": "Blitzcrank",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/blitzcrank-ethereal-weapon/"
+  },
+  {
+    "championId": "Braum",
+    "augments": ["Typhoon"],
+    "url": "https://arammayhem.com/combo/braum-typhoon/"
+  },
+  {
+    "championId": "Samira",
+    "augments": ["Blade Waltz"],
+    "url": "https://arammayhem.com/combo/samira-blade-waltz/"
+  },
+  {
+    "championId": "Illaoi",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/illaoi-ethereal-weapon/"
+  },
+  {
+    "championId": "Illaoi",
+    "augments": ["Glass Cannon"],
+    "url": "https://arammayhem.com/combo/illaoi-glass-cannon/"
+  },
+  {
+    "championId": "Naafiri",
+    "augments": ["Infernal Conduit"],
+    "url": "https://arammayhem.com/combo/naafiri-infernal-conduit/"
+  },
+  {
+    "championId": "Naafiri",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/naafiri-ethereal-weapon/"
+  },
+  {
+    "championId": "Draven",
+    "augments": ["Spin To Win"],
+    "url": "https://arammayhem.com/combo/draven-spin-to-win/"
+  },
+  {
+    "championId": "Diana",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/diana-ethereal-weapon/"
+  },
+  {
+    "championId": "Neeko",
+    "augments": ["Tap Dancer"],
+    "url": "https://arammayhem.com/combo/neeko-tap-dancer/"
+  },
+  {
+    "championId": "Neeko",
+    "augments": ["Master of Duality"],
+    "url": "https://arammayhem.com/combo/neeko-master-of-duality/"
+  },
+  {
+    "championId": "Gragas",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/gragas-ethereal-weapon/"
+  },
+  {
+    "championId": "Zac",
+    "augments": ["Circle of Death"],
+    "url": "https://arammayhem.com/combo/zac-circle-of-death/"
+  },
+  {
+    "championId": "Akshan",
+    "augments": ["Dual Wield"],
+    "url": "https://arammayhem.com/combo/akshan-dual-wield/"
+  },
+  {
+    "championId": "Trundle",
+    "augments": ["Skilled Sniper"],
+    "url": "https://arammayhem.com/combo/trundle-skilled-sniper/"
+  },
+  {
+    "championId": "Gnar",
+    "augments": ["Fan The Hammer"],
+    "url": "https://arammayhem.com/combo/gnar-fan-the-hammer/"
+  },
+  {
+    "championId": "Kennen",
+    "augments": ["Clown College"],
+    "url": "https://arammayhem.com/combo/kennen-clown-college/"
+  },
+  {
+    "championId": "Yorick",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/yorick-ethereal-weapon/"
+  },
+  {
+    "championId": "Lissandra",
+    "augments": ["Don't Blink"],
+    "url": "https://arammayhem.com/combo/lissandra-dont-blink/"
+  },
+  {
+    "championId": "RekSai",
+    "augments": ["Scopiest Weapons"],
+    "url": "https://arammayhem.com/combo/reksai-scopiest-weapons/"
+  },
+  {
+    "championId": "RekSai",
+    "augments": ["Scopier Weapons"],
+    "url": "https://arammayhem.com/combo/reksai-scopier-weapons/"
+  },
+  {
+    "championId": "RekSai",
+    "augments": ["Scoped Weapons"],
+    "url": "https://arammayhem.com/combo/reksai-scoped-weapons/"
+  },
+  {
+    "championId": "Zoe",
+    "augments": ["Biggest Snowball Ever"],
+    "url": "https://arammayhem.com/combo/zoe-biggest-snowball-ever/"
+  },
+  {
+    "championId": "Zoe",
+    "augments": ["Snowball Upgrade"],
+    "url": "https://arammayhem.com/combo/zoe-snowball-upgrade/"
+  },
+  {
+    "championId": "Rammus",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/rammus-ethereal-weapon/"
+  },
+  {
+    "championId": "Zeri",
+    "augments": ["Fey Magic"],
+    "url": "https://arammayhem.com/combo/zeri-fey-magic/"
+  },
+  {
+    "championId": "Zeri",
+    "augments": ["Slow And Steady"],
+    "url": "https://arammayhem.com/combo/zeri-slow-and-steady/"
+  },
+  {
+    "championId": "Annie",
+    "augments": ["It's Killing Time"],
+    "url": "https://arammayhem.com/combo/annie-its-killing-time/"
+  },
+  {
+    "championId": "Leblanc",
+    "augments": ["Dashing"],
+    "url": "https://arammayhem.com/combo/leblanc-dashing/"
+  },
+  {
+    "championId": "Nunu",
+    "augments": ["Circle of Death"],
+    "url": "https://arammayhem.com/combo/nunu-circle-of-death/"
+  },
+  {
+    "championId": "Nunu",
+    "augments": ["Overflow"],
+    "url": "https://arammayhem.com/combo/nunu-overflow/"
+  },
+  {
+    "championId": "Elise",
+    "augments": ["Dashing"],
+    "url": "https://arammayhem.com/combo/elise-dashing/"
+  },
+  {
+    "championId": "Yuumi",
+    "augments": ["Circle of Death"],
+    "url": "https://arammayhem.com/combo/yuumi-circle-of-death/"
+  },
+  {
+    "championId": "Azir",
+    "augments": ["Magic Missile"],
+    "url": "https://arammayhem.com/combo/azir-magic-missile/"
+  },
+  {
+    "championId": "Azir",
+    "augments": ["Minionmancer"],
+    "url": "https://arammayhem.com/combo/azir-minionmancer/"
+  },
+  {
+    "championId": "Azir",
+    "augments": ["Scopiest Weapons"],
+    "url": "https://arammayhem.com/combo/azir-scopiest-weapons/"
+  },
+  {
+    "championId": "KSante",
+    "augments": ["Fey Magic"],
+    "url": "https://arammayhem.com/combo/ksante-fey-magic/"
+  },
+  {
+    "championId": "Skarner",
+    "augments": ["Blade Waltz"],
+    "url": "https://arammayhem.com/combo/skarner-blade-waltz/"
+  },
+  {
+    "championId": "Akali",
+    "augments": ["Scopiest Weapons"],
+    "url": "https://arammayhem.com/combo/akali-scopiest-weapons/"
+  },
+  {
+    "championId": "Bard",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/bard-ethereal-weapon/"
+  },
+  {
+    "championId": "Graves",
+    "augments": ["Draw Your Sword"],
+    "url": "https://arammayhem.com/combo/graves-draw-your-sword/"
+  },
+  {
+    "championId": "Braum",
+    "augments": ["Fan The Hammer"],
+    "url": "https://arammayhem.com/combo/braum-fan-the-hammer/"
+  },
+  {
+    "championId": "Sivir",
+    "augments": ["Skilled Sniper"],
+    "url": "https://arammayhem.com/combo/sivir-skilled-sniper/"
+  },
+  {
+    "championId": "Kalista",
+    "augments": ["Shadow Runner"],
+    "url": "https://arammayhem.com/combo/kalista-shadow-runner/"
+  },
+  {
+    "championId": "Bard",
+    "augments": ["OrbitalLaser"],
+    "url": "https://arammayhem.com/combo/bard-orbitallaser/"
+  },
+  {
+    "championId": "Senna",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/senna-ethereal-weapon/"
+  },
+  {
+    "championId": "Braum",
+    "augments": ["Blade Waltz"],
+    "url": "https://arammayhem.com/combo/braum-blade-waltz/"
+  },
+  {
+    "championId": "Kayle",
+    "augments": ["Draw Your Sword"],
+    "url": "https://arammayhem.com/combo/kayle-draw-your-sword/"
+  },
+  {
+    "championId": "Vayne",
+    "augments": ["Dual Wield"],
+    "url": "https://arammayhem.com/combo/vayne-dual-wield/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Overflow"],
+    "url": "https://arammayhem.com/combo/ryze-overflow/"
+  },
+  {
+    "championId": "Vayne",
+    "augments": ["Fan The Hammer"],
+    "url": "https://arammayhem.com/combo/vayne-fan-the-hammer/"
+  },
+  {
+    "championId": "AurelionSol",
+    "augments": ["Stackosaurus Rex"],
+    "url": "https://arammayhem.com/combo/aurelionsol-stackosaurusrex/"
+  },
+  {
+    "championId": "Fizz",
+    "augments": ["Dashing"],
+    "url": "https://arammayhem.com/combo/fizz-dashing/"
+  },
+  {
+    "championId": "Veigar",
+    "augments": ["OrbitalLaser"],
+    "url": "https://arammayhem.com/combo/veigar-orbitallaser/"
+  },
+  {
+    "championId": "Gangplank",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/gangplank-ethereal-weapon/"
+  },
+  {
+    "championId": "Zeri",
+    "augments": ["Upgrade Infinity Edge"],
+    "url": "https://arammayhem.com/combo/zeri-upgrade-infinity-edge/"
+  },
+  {
+    "championId": "Corki",
+    "augments": ["Jeweled Gauntlet"],
+    "url": "https://arammayhem.com/combo/corki-jeweled-gauntlet/"
+  },
+  {
+    "championId": "Malzahar",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/malzahar-ethereal-weapon/"
+  },
+  {
+    "championId": "Tristana",
+    "augments": ["Fan The Hammer"],
+    "url": "https://arammayhem.com/combo/tristana-fan-the-hammer/"
+  },
+  {
+    "championId": "Leblanc",
+    "augments": ["Quantum Computing"],
+    "url": "https://arammayhem.com/combo/leblanc-quantum-computing/"
+  },
+  {
+    "championId": "Alistar",
+    "augments": ["Executioner"],
+    "url": "https://arammayhem.com/combo/alistar-executioner/"
+  },
+  {
+    "championId": "MonkeyKing",
+    "augments": ["Blade Waltz"],
+    "url": "https://arammayhem.com/combo/monkeyking-blade-waltz/"
+  },
+  {
+    "championId": "Renata",
+    "augments": ["Slap Around"],
+    "url": "https://arammayhem.com/combo/renata-slap-around/"
+  },
+  {
+    "championId": "Renata",
+    "augments": ["Cruelty"],
+    "url": "https://arammayhem.com/combo/renata-cruelty/"
+  },
+  {
+    "championId": "Katarina",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/katarina-ethereal-weapon/"
+  },
+  {
+    "championId": "Fizz",
+    "augments": ["Fan The Hammer"],
+    "url": "https://arammayhem.com/combo/fizz-fan-the-hammer/"
+  },
+  {
+    "championId": "Fiddlesticks",
+    "augments": ["Blade Waltz"],
+    "url": "https://arammayhem.com/combo/fiddlesticks-blade-waltz/"
+  },
+  {
+    "championId": "Samira",
+    "augments": ["Clown College"],
+    "url": "https://arammayhem.com/combo/samira-clown-college/"
+  },
+  {
+    "championId": "Samira",
+    "augments": ["Draw Your Sword"],
+    "url": "https://arammayhem.com/combo/samira-draw-your-sword/"
+  },
+  {
+    "championId": "XinZhao",
+    "augments": ["Master of Duality"],
+    "url": "https://arammayhem.com/combo/xinzhao-master-of-duality/"
+  },
+  {
+    "championId": "Tryndamere",
+    "augments": ["Master of Duality"],
+    "url": "https://arammayhem.com/combo/tryndamere-master-of-duality/"
+  },
+  {
+    "championId": "JarvanIV",
+    "augments": ["Clown College"],
+    "url": "https://arammayhem.com/combo/jarvaniv-clown-college/"
+  },
+  {
+    "championId": "Fiddlesticks",
+    "augments": ["Upgrade Zhonya's"],
+    "url": "https://arammayhem.com/combo/fiddlesticks-upgrade-zhonyas/"
+  },
+  {
+    "championId": "Leona",
+    "augments": ["Infernal Conduit"],
+    "url": "https://arammayhem.com/combo/leona-infernal-conduit/"
+  },
+  {
+    "championId": "Nautilus",
+    "augments": ["Courage of the Colossus"],
+    "url": "https://arammayhem.com/combo/nautilus-courage-of-the-colossus/"
+  },
+  {
+    "championId": "Hecarim",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/hecarim-ethereal-weapon/"
+  },
+  {
+    "championId": "Morgana",
+    "augments": ["Executioner"],
+    "url": "https://arammayhem.com/combo/morgana-executioner/"
+  },
+  {
+    "championId": "Malphite",
+    "augments": ["Ultimate Revolution"],
+    "url": "https://arammayhem.com/combo/malphite-ultimate-revolution/"
+  },
+  {
+    "championId": "Samira",
+    "augments": ["Vulnerability"],
+    "url": "https://arammayhem.com/combo/samira-vulnerability/"
+  },
+  {
+    "championId": "Vayne",
+    "augments": ["Twice Thrice"],
+    "url": "https://arammayhem.com/combo/vayne-twice-thrice/"
+  },
+  {
+    "championId": "Sett",
+    "augments": ["Clown College"],
+    "url": "https://arammayhem.com/combo/sett-clown-college/"
+  },
+  {
+    "championId": "Illaoi",
+    "augments": ["Blade Waltz"],
+    "url": "https://arammayhem.com/combo/illaoi-blade-waltz/"
+  },
+  {
+    "championId": "Gwen",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/gwen-ethereal-weapon/"
+  },
+  {
+    "championId": "Pantheon",
+    "augments": ["Quest: Steel Your Heart"],
+    "url": "https://arammayhem.com/combo/pantheon-quest-steel-your-heart/"
+  },
+  {
+    "championId": "MasterYi",
+    "augments": ["Mystic Punch"],
+    "url": "https://arammayhem.com/combo/masteryi-mystic-punch/"
+  },
+  {
+    "championId": "Lucian",
+    "augments": ["Jeweled Gauntlet"],
+    "url": "https://arammayhem.com/combo/lucian-jeweled-gauntlet/"
+  },
+  {
+    "championId": "Sett",
+    "augments": ["Jeweled Gauntlet"],
+    "url": "https://arammayhem.com/combo/sett-jeweled-gauntlet/"
+  },
+  {
+    "championId": "Yasuo",
+    "augments": ["Swift and Safe"],
+    "url": "https://arammayhem.com/combo/yasuo-swift-and-safe/"
+  },
+  {
+    "championId": "Syndra",
+    "augments": ["Cruelty"],
+    "url": "https://arammayhem.com/combo/syndra-cruelty/"
+  },
+  {
+    "championId": "Udyr",
+    "augments": ["Scopiest Weapons"],
+    "url": "https://arammayhem.com/combo/udyr-scopiest-weapons/"
+  },
+  {
+    "championId": "Sion",
+    "augments": ["Fan The Hammer"],
+    "url": "https://arammayhem.com/combo/sion-fan-the-hammer/"
+  },
+  {
+    "championId": "Neeko",
+    "augments": ["From Beginning To End"],
+    "url": "https://arammayhem.com/combo/neeko-from-beginning-to-end/"
+  },
+  {
+    "championId": "Zaahen",
+    "augments": ["Fan The Hammer"],
+    "url": "https://arammayhem.com/combo/zaahen-fan-the-hammer/"
+  },
+  {
+    "championId": "Diana",
+    "augments": ["Critical Healing"],
+    "url": "https://arammayhem.com/combo/diana-critical-healing/"
+  },
+  {
+    "championId": "Zed",
+    "augments": ["Executioner"],
+    "url": "https://arammayhem.com/combo/zed-executioner/"
+  },
+  {
+    "championId": "Zaahen",
+    "augments": ["Blade Waltz"],
+    "url": "https://arammayhem.com/combo/zaahen-blade-waltz/"
+  },
+  {
+    "championId": "Sett",
+    "augments": ["Back To Basics"],
+    "url": "https://arammayhem.com/combo/sett-back-to-basics/"
+  },
+  {
+    "championId": "Shaco",
+    "augments": ["Executioner"],
+    "url": "https://arammayhem.com/combo/shaco-executioner/"
+  },
+  {
+    "championId": "Twitch",
+    "augments": ["Fey Magic"],
+    "url": "https://arammayhem.com/combo/twitch-fey-magic/"
+  },
+  {
+    "championId": "Udyr",
+    "augments": ["Jeweled Gauntlet"],
+    "url": "https://arammayhem.com/combo/udyr-jeweled-gauntlet/"
+  },
+  {
+    "championId": "Azir",
+    "augments": ["Marksmage"],
+    "url": "https://arammayhem.com/combo/azir-marksmage/"
+  },
+  {
+    "championId": "Shaco",
+    "augments": ["Back To Basics"],
+    "url": "https://arammayhem.com/combo/shaco-back-to-basics/"
+  },
+  {
+    "championId": "Shaco",
+    "augments": ["Quantum Computing"],
+    "url": "https://arammayhem.com/combo/shaco-quantum-computing/"
+  },
+  {
+    "championId": "Shaco",
+    "augments": ["Clown College"],
+    "url": "https://arammayhem.com/combo/shaco-clown-college/"
+  },
+  {
+    "championId": "Shaco",
+    "augments": ["Don't Blink"],
+    "url": "https://arammayhem.com/combo/shaco-dont-blink/"
+  },
+  {
+    "championId": "Shaco",
+    "augments": ["Slow And Steady"],
+    "url": "https://arammayhem.com/combo/shaco-slow-and-steady/"
+  },
+  {
+    "championId": "Shaco",
+    "augments": ["Vampirism"],
+    "url": "https://arammayhem.com/combo/shaco-vampirism/"
+  },
+  {
+    "championId": "JarvanIV",
+    "augments": ["Dive Bomber"],
+    "url": "https://arammayhem.com/combo/jarvaniv-dive-bomber/"
+  },
+  {
+    "championId": "Hecarim",
+    "augments": ["Rabble Rousing"],
+    "url": "https://arammayhem.com/combo/hecarim-rabble-rousing/"
+  },
+  {
+    "championId": "Morgana",
+    "augments": ["Infernal Conduit"],
+    "url": "https://arammayhem.com/combo/morgana-infernal-conduit/"
+  },
+  {
+    "championId": "Mel",
+    "augments": ["Skilled Sniper"],
+    "url": "https://arammayhem.com/combo/mel-skilled-sniper/"
+  },
+  {
+    "championId": "Garen",
+    "augments": ["Jeweled Gauntlet"],
+    "url": "https://arammayhem.com/combo/garen-jeweled-gauntlet/"
+  },
+  {
+    "championId": "Yone",
+    "augments": ["Critical Healing"],
+    "url": "https://arammayhem.com/combo/yone-critical-healing/"
+  },
+  {
+    "championId": "Vladimir",
+    "augments": ["Infernal Conduit"],
+    "url": "https://arammayhem.com/combo/vladimir-infernal-conduit/"
+  },
+  {
+    "championId": "Vladimir",
+    "augments": ["Bread And Jam"],
+    "url": "https://arammayhem.com/combo/vladimir-bread-and-jam/"
+  },
+  {
+    "championId": "Vladimir",
+    "augments": ["Recursion"],
+    "url": "https://arammayhem.com/combo/vladimir-recursion/"
+  },
+  {
+    "championId": "Karthus",
+    "augments": ["Clown College"],
+    "url": "https://arammayhem.com/combo/karthus-clown-college/"
+  },
+  {
+    "championId": "Kayle",
+    "augments": ["Magic Missile"],
+    "url": "https://arammayhem.com/combo/kayle-magic-missile/"
+  },
+  {
+    "championId": "Sivir",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/sivir-ethereal-weapon/"
+  },
+  {
+    "championId": "Rumble",
+    "augments": ["Vulnerability"],
+    "url": "https://arammayhem.com/combo/rumble-vulnerability/"
+  },
+  {
+    "championId": "Zaahen",
+    "augments": ["OrbitalLaser"],
+    "url": "https://arammayhem.com/combo/zaahen-orbitallaser/"
+  },
+  {
+    "championId": "DrMundo",
+    "augments": ["Protein Shake"],
+    "url": "https://arammayhem.com/combo/drmundo-protein-shake/"
+  },
+  {
+    "championId": "Janna",
+    "augments": ["Skilled Sniper"],
+    "url": "https://arammayhem.com/combo/janna-skilled-sniper/"
+  },
+  {
+    "championId": "DrMundo",
+    "augments": ["Heavy Hitter"],
+    "url": "https://arammayhem.com/combo/drmundo-heavy-hitter/"
+  },
+  {
+    "championId": "Senna",
+    "augments": ["Draw Your Sword"],
+    "url": "https://arammayhem.com/combo/senna-draw-your-sword/"
+  },
+  {
+    "championId": "Senna",
+    "augments": ["Stackosaurus Rex"],
+    "url": "https://arammayhem.com/combo/senna-stackosaurusrex/"
+  },
+  {
+    "championId": "Samira",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/samira-ethereal-weapon/"
+  },
+  {
+    "championId": "Amumu",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/amumu-ethereal-weapon/"
+  },
+  {
+    "championId": "Kalista",
+    "augments": ["Fan The Hammer"],
+    "url": "https://arammayhem.com/combo/kalista-fan-the-hammer/"
+  },
+  {
+    "championId": "Vi",
+    "augments": ["Blade Waltz"],
+    "url": "https://arammayhem.com/combo/vi-blade-waltz/"
+  },
+  {
+    "championId": "Jayce",
+    "augments": ["Purist - Caster"],
+    "url": "https://arammayhem.com/combo/jayce-purist-caster-574/"
+  },
+  {
+    "championId": "Evelynn",
+    "augments": ["Bread And Butter"],
+    "url": "https://arammayhem.com/combo/evelynn-bread-and-butter/"
+  },
+  {
+    "championId": "Karthus",
+    "augments": ["Ultimate Revolution"],
+    "url": "https://arammayhem.com/combo/karthus-ultimate-revolution/"
+  },
+  {
+    "championId": "Karthus",
+    "augments": ["Infinite Recursion"],
+    "url": "https://arammayhem.com/combo/karthus-infinite-recursion/"
+  },
+  {
+    "championId": "Karthus",
+    "augments": ["Eureka"],
+    "url": "https://arammayhem.com/combo/karthus-eureka/"
+  },
+  {
+    "championId": "MissFortune",
+    "augments": ["Quest: Wooglet's Witchcap"],
+    "url": "https://arammayhem.com/combo/missfortune-quest-wooglets-witchcap/"
+  },
+  {
+    "championId": "Quinn",
+    "augments": ["Outlaw's Grit"],
+    "url": "https://arammayhem.com/combo/quinn-outlaws-grit/"
+  },
+  {
+    "championId": "Quinn",
+    "augments": ["Quantum Computing"],
+    "url": "https://arammayhem.com/combo/quinn-quantum-computing/"
+  },
+  {
+    "championId": "Kayle",
+    "augments": ["Marksmage"],
+    "url": "https://arammayhem.com/combo/kayle-marksmage/"
+  },
+  {
+    "championId": "Teemo",
+    "augments": ["Marksmage"],
+    "url": "https://arammayhem.com/combo/teemo-marksmage/"
+  },
+  {
+    "championId": "Twitch",
+    "augments": ["Marksmage"],
+    "url": "https://arammayhem.com/combo/twitch-marksmage/"
+  },
+  {
+    "championId": "Zyra",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/zyra-ethereal-weapon/"
+  },
+  {
+    "championId": "Shaco",
+    "augments": ["Poro Blaster"],
+    "url": "https://arammayhem.com/combo/shaco-poro-blaster/"
+  },
+  {
+    "championId": "Neeko",
+    "augments": ["Poro Blaster"],
+    "url": "https://arammayhem.com/combo/neeko-poro-blaster/"
+  },
+  {
+    "championId": "Neeko",
+    "augments": ["Void Rift", "Don't Blink"],
+    "url": "https://arammayhem.com/combo/neeko-void-rift-588/"
+  },
+  {
+    "championId": "Neeko",
+    "augments": ["Cruelty"],
+    "url": "https://arammayhem.com/combo/neeko-cruelty-589/"
+  },
+  {
+    "championId": "Pantheon",
+    "augments": ["Quest: Steel Your Heart", "Tank Engine", "Goliath"],
+    "url": "https://arammayhem.com/combo/pantheon-quest-steel-your-heart-591/"
+  },
+  {
+    "championId": "Pantheon",
+    "augments": ["Quantum Computing", "Back To Basics", "Executioner"],
+    "url": "https://arammayhem.com/combo/pantheon-quantum-computing-592/"
+  },
+  {
+    "championId": "Volibear",
+    "augments": ["Master of Duality", "ADAPt"],
+    "url": "https://arammayhem.com/combo/volibear-master-of-duality-594/"
+  },
+  {
+    "championId": "Volibear",
+    "augments": ["Mystic Punch", "Quest: Steel Your Heart", "Tank Engine"],
+    "url": "https://arammayhem.com/combo/volibear-mystic-punch-595/"
+  },
+  {
+    "championId": "Yunara",
+    "augments": ["Master of Duality", "Marksmage", "Zealot", "Dual Wield"],
+    "url": "https://arammayhem.com/combo/yunara-master-of-duality-596/"
+  },
+  {
+    "championId": "Yunara",
+    "augments": ["Juiced", "Buff Buddies", "Upgrade Infinity Edge"],
+    "url": "https://arammayhem.com/combo/yunara-juiced-597/"
+  },
+  {
+    "championId": "Katarina",
+    "augments": ["Jeweled Gauntlet", "Vulnerability"],
+    "url": "https://arammayhem.com/combo/katarina-jeweled-gauntlet-598/"
+  },
+  {
+    "championId": "Katarina",
+    "augments": ["Triggered Inferno"],
+    "url": "https://arammayhem.com/combo/katarina-triggered-inferno-599/"
+  },
+  {
+    "championId": "Katarina",
+    "augments": ["Protein Shake", "Slow And Steady"],
+    "url": "https://arammayhem.com/combo/katarina-protein-shake-600/"
+  },
+  {
+    "championId": "Katarina",
+    "augments": ["Mystic Punch"],
+    "url": "https://arammayhem.com/combo/katarina-mystic-punch-601/"
+  },
+  {
+    "championId": "Katarina",
+    "augments": ["Void Rift"],
+    "url": "https://arammayhem.com/combo/katarina-void-rift-606/"
+  },
+  {
+    "championId": "Zaahen",
+    "augments": ["Ultimate Revolution"],
+    "url": "https://arammayhem.com/combo/zaahen-ultimate-revolution-608/"
+  },
+  {
+    "championId": "Zaahen",
+    "augments": ["Scopiest Weapons", "Scopier Weapons", "Executioner"],
+    "url": "https://arammayhem.com/combo/zaahen-scopiest-weapons-609/"
+  },
+  {
+    "championId": "Sion",
+    "augments": ["Back To Basics", "Jeweled Gauntlet", "Shrink Engine", "Giant Slayer"],
+    "url": "https://arammayhem.com/combo/sion-back-to-basics-612/"
+  },
+  {
+    "championId": "Sion",
+    "augments": [
+      "Tank Engine",
+      "Quest: Steel Your Heart",
+      "Celestial Body",
+      "Dropkick",
+      "Goliath",
+      "Apex Inventor",
+      "Mad Scientist",
+      "Soul Eater",
+      "Heavy Hitter"
+    ],
+    "url": "https://arammayhem.com/combo/sion-tank-engine-613/"
+  },
+  {
+    "championId": "Sion",
+    "augments": ["Ultimate Revolution"],
+    "url": "https://arammayhem.com/combo/sion-ultimate-revolution-616/"
+  },
+  {
+    "championId": "Soraka",
+    "augments": ["Protein Shake", "All For You", "Critical Healing"],
+    "url": "https://arammayhem.com/combo/soraka-protein-shake-619/"
+  },
+  {
+    "championId": "Rengar",
+    "augments": ["Circle of Death"],
+    "url": "https://arammayhem.com/combo/rengar-circle-of-death-620/"
+  },
+  {
+    "championId": "Qiyana",
+    "augments": ["Juiced", "Ocean Soul", "Dashing", "Shrink Engine"],
+    "url": "https://arammayhem.com/combo/qiyana-juiced-622/"
+  },
+  {
+    "championId": "Lux",
+    "augments": [
+      "Ethereal Weapon",
+      "Jeweled Gauntlet",
+      "Magic Missile",
+      "Eureka",
+      "From Beginning To End"
+    ],
+    "url": "https://arammayhem.com/combo/lux-ethereal-weapon-624/"
+  },
+  {
+    "championId": "Lux",
+    "augments": [
+      "Slap Around",
+      "Infinite Recursion",
+      "Phenomenal Evil",
+      "Soul Eater",
+      "Eureka",
+      "Shrink Engine",
+      "Magic Missile"
+    ],
+    "url": "https://arammayhem.com/combo/lux-slap-around-625/"
+  },
+  {
+    "championId": "Udyr",
+    "augments": [
+      "Ethereal Weapon",
+      "Jeweled Gauntlet",
+      "Vulnerability",
+      "Clown College",
+      "Ice Cold",
+      "Upgrade Infinity Edge",
+      "Glass Cannon",
+      "Marksmage"
+    ],
+    "url": "https://arammayhem.com/combo/udyr-ethereal-weapon-626/"
+  },
+  {
+    "championId": "Udyr",
+    "augments": [
+      "Scopiest Weapons",
+      "Clown College",
+      "Slow And Steady",
+      "Vampirism",
+      "Upgrade Infinity Edge"
+    ],
+    "url": "https://arammayhem.com/combo/udyr-scopiest-weapons-627/"
+  },
+  {
+    "championId": "Udyr",
+    "augments": ["Quest: Steel Your Heart", "Tank Engine", "Goliath"],
+    "url": "https://arammayhem.com/combo/udyr-quest-steel-your-heart-628/"
+  },
+  {
+    "championId": "Udyr",
+    "augments": ["Void Rift"],
+    "url": "https://arammayhem.com/combo/udyr-void-rift-629/"
+  },
+  {
+    "championId": "Anivia",
+    "augments": ["Skilled Sniper", "Infinite Recursion", "Eureka", "Recursion", "Phenomenal Evil"],
+    "url": "https://arammayhem.com/combo/anivia-skilled-sniper-630/"
+  },
+  {
+    "championId": "Irelia",
+    "augments": ["Mystic Punch", "Ethereal Weapon", "Dashing", "Recursion"],
+    "url": "https://arammayhem.com/combo/irelia-mystic-punch-634/"
+  },
+  {
+    "championId": "Sejuani",
+    "augments": ["Jeweled Gauntlet", "Executioner", "Eureka", "Overflow"],
+    "url": "https://arammayhem.com/combo/sejuani-jeweled-gauntlet-636/"
+  },
+  {
+    "championId": "Aurora",
+    "augments": ["Snowball Upgrade", "Ethereal Weapon", "Biggest Snowball Ever"],
+    "url": "https://arammayhem.com/combo/aurora-snowball-upgrade-638/"
+  },
+  {
+    "championId": "Aurora",
+    "augments": [
+      "Ethereal Weapon",
+      "Eureka",
+      "Back To Basics",
+      "Homeguard",
+      "Shadow Runner",
+      "Dashing"
+    ],
+    "url": "https://arammayhem.com/combo/aurora-ethereal-weapon-639/"
+  },
+  {
+    "championId": "Lillia",
+    "augments": ["Don't Blink", "Ice Cold"],
+    "url": "https://arammayhem.com/combo/lillia-dont-blink-641/"
+  },
+  {
+    "championId": "Lillia",
+    "augments": ["Devil on Your Shoulder"],
+    "url": "https://arammayhem.com/combo/lillia-devil-on-your-shoulder-642/"
+  },
+  {
+    "championId": "Lillia",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/lillia-ethereal-weapon-643/"
+  },
+  {
+    "championId": "Lillia",
+    "augments": ["ADAPt"],
+    "url": "https://arammayhem.com/combo/lillia-adapt-644/"
+  },
+  {
+    "championId": "Nami",
+    "augments": ["Cruelty", "Slap Around", "Shrink Engine"],
+    "url": "https://arammayhem.com/combo/nami-cruelty-646/"
+  },
+  {
+    "championId": "Lucian",
+    "augments": ["Mystic Punch", "Dual Wield", "Dashing", "Recursion"],
+    "url": "https://arammayhem.com/combo/lucian-mystic-punch-647/"
+  },
+  {
+    "championId": "Lucian",
+    "augments": ["Jeweled Gauntlet", "Vulnerability", "Upgrade Infinity Edge", "Giant Slayer"],
+    "url": "https://arammayhem.com/combo/lucian-jeweled-gauntlet-648/"
+  },
+  {
+    "championId": "Lucian",
+    "augments": ["Bread And Jam", "Magic Missile", "Quest: Wooglet's Witchcap", "Marksmage"],
+    "url": "https://arammayhem.com/combo/lucian-bread-and-jam-649/"
+  },
+  {
+    "championId": "Morgana",
+    "augments": ["Ice Cold", "Erosion"],
+    "url": "https://arammayhem.com/combo/morgana-ice-cold-651/"
+  },
+  {
+    "championId": "Morgana",
+    "augments": [
+      "Ocean Soul",
+      "Mind to Matter",
+      "Buff Buddies",
+      "Juiced",
+      "Overflow",
+      "Shrink Engine",
+      "Infinite Recursion"
+    ],
+    "url": "https://arammayhem.com/combo/morgana-ocean-soul-652/"
+  },
+  {
+    "championId": "Kalista",
+    "augments": [
+      "Jeweled Gauntlet",
+      "Marksmage",
+      "Fan The Hammer",
+      "Dual Wield",
+      "Twice Thrice",
+      "Back To Basics"
+    ],
+    "url": "https://arammayhem.com/combo/kalista-jeweled-gauntlet-654/"
+  },
+  {
+    "championId": "Brand",
+    "augments": ["Infernal Conduit", "Vampirism"],
+    "url": "https://arammayhem.com/combo/brand-infernal-conduit-657/"
+  },
+  {
+    "championId": "Brand",
+    "augments": ["Jeweled Gauntlet", "Vulnerability", "Magic Missile"],
+    "url": "https://arammayhem.com/combo/brand-jeweled-gauntlet-658/"
+  },
+  {
+    "championId": "Heimerdinger",
+    "augments": ["Void Rift", "Don't Blink", "Minionmancer"],
+    "url": "https://arammayhem.com/combo/heimerdinger-void-rift-660/"
+  },
+  {
+    "championId": "Karma",
+    "augments": [
+      "I'm a Baby Kitty Where is Mama",
+      "First-Aid Kit",
+      "Empyrean Promise",
+      "All For You"
+    ],
+    "url": "https://arammayhem.com/combo/karma-im-a-baby-kitty-where-is-mama-661/"
+  },
+  {
+    "championId": "Karma",
+    "augments": [
+      "Jeweled Gauntlet",
+      "Eureka",
+      "Quest: Wooglet's Witchcap",
+      "From Beginning To End",
+      "It's Killing Time"
+    ],
+    "url": "https://arammayhem.com/combo/karma-jeweled-gauntlet-662/"
+  },
+  {
+    "championId": "Viktor",
+    "augments": ["Void Rift", "Don't Blink"],
+    "url": "https://arammayhem.com/combo/viktor-void-rift-663/"
+  },
+  {
+    "championId": "Ashe",
+    "augments": [
+      "Jeweled Gauntlet",
+      "From Beginning To End",
+      "Shrink Engine",
+      "Infinite Recursion",
+      "Recursion",
+      "Ultimate Revolution",
+      "Purist - Caster"
+    ],
+    "url": "https://arammayhem.com/combo/ashe-jeweled-gauntlet-666/"
+  },
+  {
+    "championId": "Ashe",
+    "augments": ["Infinite Recursion", "Shrink Engine", "Purist - Caster"],
+    "url": "https://arammayhem.com/combo/ashe-infinite-recursion-667/"
+  },
+  {
+    "championId": "Yone",
+    "augments": ["Slow And Steady", "Blunt Force", "Upgrade Infinity Edge", "Mystic Punch"],
+    "url": "https://arammayhem.com/combo/yone-slow-and-steady-668/"
+  },
+  {
+    "championId": "Yone",
+    "augments": ["Mystic Punch", "Rabble Rousing", "Critical Healing"],
+    "url": "https://arammayhem.com/combo/yone-mystic-punch-669/"
+  },
+  {
+    "championId": "Yone",
+    "augments": ["Critical Healing", "Deft", "Mighty Shield", "Quest: Steel Your Heart"],
+    "url": "https://arammayhem.com/combo/yone-critical-healing-670/"
+  },
+  {
+    "championId": "Ornn",
+    "augments": ["Fey Magic", "Infinite Recursion", "Shrink Engine"],
+    "url": "https://arammayhem.com/combo/ornn-fey-magic-671/"
+  },
+  {
+    "championId": "Trundle",
+    "augments": [
+      "Slap Around",
+      "It's Killing Time",
+      "Infinite Recursion",
+      "Hand of Baron",
+      "Mad Scientist",
+      "Eureka",
+      "Shrink Engine",
+      "Purist - Caster"
+    ],
+    "url": "https://arammayhem.com/combo/trundle-slap-around-673/"
+  },
+  {
+    "championId": "Trundle",
+    "augments": [
+      "Infinite Recursion",
+      "Shrink Engine",
+      "Purist - Caster",
+      "Skilled Sniper",
+      "Recursion",
+      "Soul Eater",
+      "Slap Around"
+    ],
+    "url": "https://arammayhem.com/combo/trundle-infinite-recursion-675/"
+  },
+  {
+    "championId": "Rakan",
+    "augments": ["Cruelty"],
+    "url": "https://arammayhem.com/combo/rakan-cruelty-676/"
+  },
+  {
+    "championId": "Hwei",
+    "augments": ["Cruelty", "Phenomenal Evil", "Shrink Engine", "Giant Slayer"],
+    "url": "https://arammayhem.com/combo/hwei-cruelty-678/"
+  },
+  {
+    "championId": "Hwei",
+    "augments": ["Void Rift", "Phenomenal Evil", "Shrink Engine", "Giant Slayer"],
+    "url": "https://arammayhem.com/combo/hwei-void-rift-679/"
+  },
+  {
+    "championId": "Zed",
+    "augments": ["Ethereal Weapon", "Mystic Punch", "Infinite Recursion", "Buff Buddies"],
+    "url": "https://arammayhem.com/combo/zed-ethereal-weapon-684/"
+  },
+  {
+    "championId": "Zed",
+    "augments": ["Back To Basics", "Buff Buddies"],
+    "url": "https://arammayhem.com/combo/zed-back-to-basics-685/"
+  },
+  {
+    "championId": "Garen",
+    "augments": [
+      "Blade Waltz",
+      "Triggered Inferno",
+      "Slow And Steady",
+      "Upgrade Infinity Edge",
+      "Back To Basics",
+      "Spin To Win"
+    ],
+    "url": "https://arammayhem.com/combo/garen-blade-waltz-689/"
+  },
+  {
+    "championId": "JarvanIV",
+    "augments": [
+      "Dive Bomber",
+      "Final City Transit",
+      "Clown College",
+      "Self Destruct",
+      "Donation",
+      "From Beginning To End"
+    ],
+    "url": "https://arammayhem.com/combo/jarvaniv-dive-bomber-691/"
+  },
+  {
+    "championId": "XinZhao",
+    "augments": ["Master of Duality", "Protein Shake", "Zealot", "Goliath", "Tap Dancer"],
+    "url": "https://arammayhem.com/combo/xinzhao-master-of-duality-693/"
+  },
+  {
+    "championId": "Shaco",
+    "augments": ["Clown College", "Dive Bomber", "Final City Transit", "Self Destruct"],
+    "url": "https://arammayhem.com/combo/shaco-clown-college-695/"
+  },
+  {
+    "championId": "Varus",
+    "augments": ["Ethereal Weapon", "Phenomenal Evil", "Shrink Engine", "Infinite Recursion"],
+    "url": "https://arammayhem.com/combo/varus-ethereal-weapon-698/"
+  },
+  {
+    "championId": "Hecarim",
+    "augments": [
+      "Critical Healing",
+      "Infernal Conduit",
+      "Ultimate Revolution",
+      "Weighted Popoffs",
+      "Spin To Win"
+    ],
+    "url": "https://arammayhem.com/combo/hecarim-critical-healing-702/"
+  },
+  {
+    "championId": "Hecarim",
+    "augments": ["Back To Basics", "Spin To Win", "Vampirism", "Weighted Popoffs"],
+    "url": "https://arammayhem.com/combo/hecarim-back-to-basics-703/"
+  },
+  {
+    "championId": "Hecarim",
+    "augments": ["Triggered Inferno"],
+    "url": "https://arammayhem.com/combo/hecarim-triggered-inferno-704/"
+  },
+  {
+    "championId": "Hecarim",
+    "augments": ["Devil on Your Shoulder"],
+    "url": "https://arammayhem.com/combo/hecarim-devil-on-your-shoulder-705/"
+  },
+  {
+    "championId": "Hecarim",
+    "augments": ["Ethereal Weapon", "Mystic Punch", "Ultimate Awakening"],
+    "url": "https://arammayhem.com/combo/hecarim-ethereal-weapon-706/"
+  },
+  {
+    "championId": "Sivir",
+    "augments": ["Erosion", "Firebrand"],
+    "url": "https://arammayhem.com/combo/sivir-erosion-707/"
+  },
+  {
+    "championId": "Maokai",
+    "augments": ["Courage of the Colossus", "Protein Shake", "First-Aid Kit"],
+    "url": "https://arammayhem.com/combo/maokai-courage-of-the-colossus-708/"
+  },
+  {
+    "championId": "Maokai",
+    "augments": ["Void Rift", "Don't Blink", "Eureka"],
+    "url": "https://arammayhem.com/combo/maokai-void-rift-709/"
+  },
+  {
+    "championId": "Maokai",
+    "augments": ["Protein Shake", "Circle of Death", "First-Aid Kit", "Tank Engine"],
+    "url": "https://arammayhem.com/combo/maokai-protein-shake-711/"
+  },
+  {
+    "championId": "Rammus",
+    "augments": ["Upgrade Thornmail", "Red Envelopes", "Heads Up Cupcake!"],
+    "url": "https://arammayhem.com/combo/rammus-upgrade-thornmail-712/"
+  },
+  {
+    "championId": "Ezreal",
+    "augments": ["Juiced", "Jeweled Gauntlet", "Upgrade Infinity Edge"],
+    "url": "https://arammayhem.com/combo/ezreal-juiced-713/"
+  },
+  {
+    "championId": "Ezreal",
+    "augments": ["Purist - Caster", "Mystic Punch", "Recursion", "Infinite Recursion"],
+    "url": "https://arammayhem.com/combo/ezreal-purist-caster-714/"
+  },
+  {
+    "championId": "Fiora",
+    "augments": [
+      "Quest: Steel Your Heart",
+      "Tank Engine",
+      "Goliath",
+      "Mad Scientist",
+      "Hand of Baron"
+    ],
+    "url": "https://arammayhem.com/combo/fiora-quest-steel-your-heart-718/"
+  },
+  {
+    "championId": "Fiora",
+    "augments": ["Mystic Punch", "Slow And Steady", "Rabble Rousing", "Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/fiora-mystic-punch-719/"
+  },
+  {
+    "championId": "MasterYi",
+    "augments": ["Executioner", "Double Tap", "Upgrade Infinity Edge", "Upgrade Collector"],
+    "url": "https://arammayhem.com/combo/masteryi-executioner-720/"
+  },
+  {
+    "championId": "MasterYi",
+    "augments": ["Mystic Punch", "Dashing", "Recursion", "Bread And Butter"],
+    "url": "https://arammayhem.com/combo/masteryi-mystic-punch-721/"
+  },
+  {
+    "championId": "MasterYi",
+    "augments": ["Dual Wield", "Twice Thrice", "Gash"],
+    "url": "https://arammayhem.com/combo/masteryi-dual-wield-722/"
+  },
+  {
+    "championId": "Urgot",
+    "augments": ["Draw Your Sword", "Jeweled Gauntlet", "Blade Waltz"],
+    "url": "https://arammayhem.com/combo/urgot-draw-your-sword-723/"
+  },
+  {
+    "championId": "Zilean",
+    "augments": ["Ultimate Revolution"],
+    "url": "https://arammayhem.com/combo/zilean-ultimate-revolution-725/"
+  },
+  {
+    "championId": "Zilean",
+    "augments": ["Mind to Matter", "Ocean Soul", "Buff Buddies", "Infinite Recursion", "Eureka"],
+    "url": "https://arammayhem.com/combo/zilean-mind-to-matter-726/"
+  },
+  {
+    "championId": "Ekko",
+    "augments": ["Ethereal Weapon", "Marksmage", "Giant Slayer", "Purist - Caster"],
+    "url": "https://arammayhem.com/combo/ekko-ethereal-weapon-727/"
+  },
+  {
+    "championId": "Ekko",
+    "augments": ["Void Rift", "Don't Blink"],
+    "url": "https://arammayhem.com/combo/ekko-void-rift-728/"
+  },
+  {
+    "championId": "Ekko",
+    "augments": ["Eureka", "Infinite Recursion", "Phenomenal Evil", "Shrink Engine"],
+    "url": "https://arammayhem.com/combo/ekko-eureka-730/"
+  },
+  {
+    "championId": "Ekko",
+    "augments": ["Fan The Hammer", "Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/ekko-fan-the-hammer-731/"
+  },
+  {
+    "championId": "Bard",
+    "augments": [
+      "Droppybara",
+      "Glass Cannon",
+      "Giant Slayer",
+      "Devil on Your Shoulder",
+      "It's Killing Time"
+    ],
+    "url": "https://arammayhem.com/combo/bard-droppybara-733/"
+  },
+  {
+    "championId": "Bard",
+    "augments": ["Void Rift"],
+    "url": "https://arammayhem.com/combo/bard-void-rift-734/"
+  },
+  {
+    "championId": "Seraphine",
+    "augments": [
+      "Cruelty",
+      "Slap Around",
+      "Shrink Engine",
+      "Phenomenal Evil",
+      "Weighted Popoffs",
+      "Infinite Recursion",
+      "Recursion"
+    ],
+    "url": "https://arammayhem.com/combo/seraphine-cruelty-736/"
+  },
+  {
+    "championId": "Seraphine",
+    "augments": [
+      "Slap Around",
+      "Recursion",
+      "Phenomenal Evil",
+      "Weighted Popoffs",
+      "Infinite Recursion",
+      "Shrink Engine"
+    ],
+    "url": "https://arammayhem.com/combo/seraphine-slap-around-737/"
+  },
+  {
+    "championId": "Vayne",
+    "augments": ["Fan The Hammer", "Dual Wield", "Twice Thrice", "Double Tap"],
+    "url": "https://arammayhem.com/combo/vayne-fan-the-hammer-738/"
+  },
+  {
+    "championId": "Vayne",
+    "augments": ["Tank It Or Leave It", "Upgrade Infinity Edge", "Soul Siphon"],
+    "url": "https://arammayhem.com/combo/vayne-tank-it-or-leave-it-739/"
+  },
+  {
+    "championId": "Vayne",
+    "augments": ["Shadow Runner", "Slow And Steady", "Upgrade Infinity Edge"],
+    "url": "https://arammayhem.com/combo/vayne-shadow-runner-740/"
+  },
+  {
+    "championId": "Aatrox",
+    "augments": ["Protein Shake", "Critical Healing"],
+    "url": "https://arammayhem.com/combo/aatrox-protein-shake-742/"
+  },
+  {
+    "championId": "Syndra",
+    "augments": ["Jeweled Gauntlet", "Vulnerability", "Magic Missile", "ADAPt"],
+    "url": "https://arammayhem.com/combo/syndra-jeweled-gauntlet-744/"
+  },
+  {
+    "championId": "Syndra",
+    "augments": [
+      "Slap Around",
+      "Soul Eater",
+      "Infinite Recursion",
+      "Shrink Engine",
+      "Eureka",
+      "Recursion"
+    ],
+    "url": "https://arammayhem.com/combo/syndra-slap-around-745/"
+  },
+  {
+    "championId": "Shen",
+    "augments": [
+      "Back To Basics",
+      "Goliath",
+      "Dropkick",
+      "Mad Scientist",
+      "Heavy Hitter",
+      "escAPADe"
+    ],
+    "url": "https://arammayhem.com/combo/shen-back-to-basics-748/"
+  },
+  {
+    "championId": "Zoe",
+    "augments": ["Snowball Upgrade", "Biggest Snowball Ever", "Holy Snowball", "Snowball Roulette"],
+    "url": "https://arammayhem.com/combo/zoe-snowball-upgrade-749/"
+  },
+  {
+    "championId": "Kled",
+    "augments": [
+      "Slow And Steady",
+      "Blunt Force",
+      "Clown College",
+      "Final City Transit",
+      "Goliath",
+      "Upgrade Infinity Edge"
+    ],
+    "url": "https://arammayhem.com/combo/kled-slow-and-steady-750/"
+  },
+  {
+    "championId": "Kled",
+    "augments": ["Heavy Hitter", "Goliath", "Tank Engine", "Quest: Steel Your Heart"],
+    "url": "https://arammayhem.com/combo/kled-heavy-hitter-751/"
+  },
+  {
+    "championId": "Leona",
+    "augments": [
+      "Cruelty",
+      "Quest: Steel Your Heart",
+      "Tank Engine",
+      "Goliath",
+      "Recursion",
+      "Infinite Recursion",
+      "Apex Inventor",
+      "Heavy Hitter",
+      "Dropkick"
+    ],
+    "url": "https://arammayhem.com/combo/leona-cruelty-755/"
+  },
+  {
+    "championId": "Jayce",
+    "augments": ["Slow And Steady", "Skilled Sniper"],
+    "url": "https://arammayhem.com/combo/jayce-slow-and-steady-757/"
+  },
+  {
+    "championId": "Rumble",
+    "augments": ["Void Rift", "Don't Blink", "Giant Slayer"],
+    "url": "https://arammayhem.com/combo/rumble-void-rift-759/"
+  },
+  {
+    "championId": "Rumble",
+    "augments": ["Jeweled Gauntlet", "Vulnerability", "Giant Slayer", "Back To Basics"],
+    "url": "https://arammayhem.com/combo/rumble-jeweled-gauntlet-760/"
+  },
+  {
+    "championId": "Kayle",
+    "augments": ["Void Rift", "Don't Blink"],
+    "url": "https://arammayhem.com/combo/kayle-void-rift-762/"
+  },
+  {
+    "championId": "Kayle",
+    "augments": ["Master of Duality", "Marksmage", "Zealot", "Dual Wield", "Phenomenal Evil"],
+    "url": "https://arammayhem.com/combo/kayle-master-of-duality-763/"
+  },
+  {
+    "championId": "Galio",
+    "augments": [
+      "Soul Eater",
+      "Slap Around",
+      "Infinite Recursion",
+      "Goliath",
+      "Tank Engine",
+      "Quest: Steel Your Heart"
+    ],
+    "url": "https://arammayhem.com/combo/galio-soul-eater-765/"
+  },
+  {
+    "championId": "Jax",
+    "augments": ["Soul Eater", "Infinite Recursion", "Slap Around", "Tank Engine"],
+    "url": "https://arammayhem.com/combo/jax-soul-eater-766/"
+  },
+  {
+    "championId": "Jax",
+    "augments": ["Upgrade Sheen", "ADAPt", "Mystic Punch"],
+    "url": "https://arammayhem.com/combo/jax-upgrade-sheen-767/"
+  },
+  {
+    "championId": "Jax",
+    "augments": ["Mystic Punch"],
+    "url": "https://arammayhem.com/combo/jax-mystic-punch-768/"
+  },
+  {
+    "championId": "Karthus",
+    "augments": ["Glass Cannon", "Clown College", "Dive Bomber", "Final City Transit"],
+    "url": "https://arammayhem.com/combo/karthus-glass-cannon-769/"
+  },
+  {
+    "championId": "Karthus",
+    "augments": ["Mind to Matter", "Ocean Soul"],
+    "url": "https://arammayhem.com/combo/karthus-mind-to-matter-770/"
+  },
+  {
+    "championId": "Karthus",
+    "augments": ["Ultimate Revolution", "Clown College", "Dive Bomber", "Final City Transit"],
+    "url": "https://arammayhem.com/combo/karthus-ultimate-revolution-771/"
+  },
+  {
+    "championId": "Karthus",
+    "augments": ["Devil on Your Shoulder"],
+    "url": "https://arammayhem.com/combo/karthus-devil-on-your-shoulder-772/"
+  },
+  {
+    "championId": "Nocturne",
+    "augments": ["Quantum Computing", "Feel the Burn", "Divine Intervention"],
+    "url": "https://arammayhem.com/combo/nocturne-quantum-computing-776/"
+  },
+  {
+    "championId": "Nocturne",
+    "augments": ["Quantum Computing"],
+    "url": "https://arammayhem.com/combo/nocturne-quantum-computing-777/"
+  },
+  {
+    "championId": "Nocturne",
+    "augments": ["Dive Bomber", "Final City Transit", "Clown College", "Self Destruct"],
+    "url": "https://arammayhem.com/combo/nocturne-dive-bomber-778/"
+  },
+  {
+    "championId": "Nasus",
+    "augments": [
+      "Shrink Engine",
+      "Quest: Steel Your Heart",
+      "Infinite Recursion",
+      "Upgrade Hubris",
+      "Master of Duality"
+    ],
+    "url": "https://arammayhem.com/combo/nasus-shrink-engine-780/"
+  },
+  {
+    "championId": "TahmKench",
+    "augments": ["Fan The Hammer", "Goliath", "Mad Scientist", "Eureka"],
+    "url": "https://arammayhem.com/combo/tahmkench-fan-the-hammer-784/"
+  },
+  {
+    "championId": "TahmKench",
+    "augments": ["Tank Engine", "Quest: Steel Your Heart", "Goliath", "Dropkick"],
+    "url": "https://arammayhem.com/combo/tahmkench-tank-engine-785/"
+  },
+  {
+    "championId": "TahmKench",
+    "augments": ["Quest: Steel Your Heart", "Tank Engine"],
+    "url": "https://arammayhem.com/combo/tahmkench-quest-steel-your-heart-786/"
+  },
+  {
+    "championId": "Graves",
+    "augments": ["Don't Blink", "Slow And Steady", "Vampirism"],
+    "url": "https://arammayhem.com/combo/graves-dont-blink-787/"
+  },
+  {
+    "championId": "Graves",
+    "augments": ["Marksmage", "Vampirism", "ADAPt", "Zealot"],
+    "url": "https://arammayhem.com/combo/graves-marksmage-788/"
+  },
+  {
+    "championId": "Graves",
+    "augments": ["Shrink Engine", "Upgrade Hubris", "Infinite Recursion"],
+    "url": "https://arammayhem.com/combo/graves-shrink-engine-789/"
+  },
+  {
+    "championId": "Graves",
+    "augments": ["Draw Your Sword", "Scopier Weapons", "Upgrade Hubris"],
+    "url": "https://arammayhem.com/combo/graves-draw-your-sword-790/"
+  },
+  {
+    "championId": "Mel",
+    "augments": ["Void Rift", "Don't Blink"],
+    "url": "https://arammayhem.com/combo/mel-void-rift-791/"
+  },
+  {
+    "championId": "Mel",
+    "augments": ["Vulnerability", "Jeweled Gauntlet", "Giant Slayer", "Mad Scientist", "ADAPt"],
+    "url": "https://arammayhem.com/combo/mel-vulnerability-792/"
+  },
+  {
+    "championId": "Illaoi",
+    "augments": ["Ethereal Weapon", "Quest: Steel Your Heart", "Blade Waltz"],
+    "url": "https://arammayhem.com/combo/illaoi-ethereal-weapon-793/"
+  },
+  {
+    "championId": "Gangplank",
+    "augments": [
+      "Mystic Punch",
+      "Upgrade Sheen",
+      "Bread And Butter",
+      "Upgrade Infinity Edge",
+      "Upgrade Collector",
+      "Back To Basics",
+      "Overflow",
+      "Soul Siphon",
+      "Giant Slayer"
+    ],
+    "url": "https://arammayhem.com/combo/gangplank-mystic-punch-796/"
+  },
+  {
+    "championId": "Gangplank",
+    "augments": [
+      "Don't Blink",
+      "Upgrade Infinity Edge",
+      "Back To Basics",
+      "Overflow",
+      "Soul Siphon",
+      "Homeguard",
+      "Ice Cold",
+      "Giant Slayer",
+      "Blunt Force",
+      "Upgrade Collector"
+    ],
+    "url": "https://arammayhem.com/combo/gangplank-dont-blink-797/"
+  },
+  {
+    "championId": "Gangplank",
+    "augments": [
+      "Back To Basics",
+      "Upgrade Infinity Edge",
+      "Overflow",
+      "Don't Blink",
+      "Soul Siphon",
+      "Giant Slayer",
+      "Blunt Force",
+      "Upgrade Collector"
+    ],
+    "url": "https://arammayhem.com/combo/gangplank-back-to-basics-798/"
+  },
+  {
+    "championId": "Senna",
+    "augments": ["Scoped Weapons", "Scopier Weapons", "Scopiest Weapons", "Homeguard"],
+    "url": "https://arammayhem.com/combo/senna-scoped-weapons-799/"
+  },
+  {
+    "championId": "Senna",
+    "augments": ["Master of Duality"],
+    "url": "https://arammayhem.com/combo/senna-master-of-duality-800/"
+  },
+  {
+    "championId": "Nautilus",
+    "augments": [
+      "Protein Shake",
+      "Courage of the Colossus",
+      "Soul Eater",
+      "Quest: Steel Your Heart",
+      "Tank Engine",
+      "Dropkick",
+      "Heavy Hitter",
+      "Apex Inventor",
+      "Celestial Body",
+      "Critical Healing"
+    ],
+    "url": "https://arammayhem.com/combo/nautilus-protein-shake-801/"
+  },
+  {
+    "championId": "Fizz",
+    "augments": ["Void Rift", "Don't Blink"],
+    "url": "https://arammayhem.com/combo/fizz-void-rift-803/"
+  },
+  {
+    "championId": "Fizz",
+    "augments": ["Infinite Recursion", "Recursion", "Eureka", "Bread And Butter"],
+    "url": "https://arammayhem.com/combo/fizz-infinite-recursion-804/"
+  },
+  {
+    "championId": "Fizz",
+    "augments": ["Don't Blink", "Ice Cold"],
+    "url": "https://arammayhem.com/combo/fizz-dont-blink-806/"
+  },
+  {
+    "championId": "Fizz",
+    "augments": ["Bread and Cheese", "Executioner", "Eureka", "Quest: Wooglet's Witchcap"],
+    "url": "https://arammayhem.com/combo/fizz-bread-and-cheese-807/"
+  },
+  {
+    "championId": "Fizz",
+    "augments": ["Quest: Steel Your Heart", "Goliath", "Heavy Hitter", "Tank Engine"],
+    "url": "https://arammayhem.com/combo/fizz-quest-steel-your-heart-808/"
+  },
+  {
+    "championId": "Singed",
+    "augments": ["Devil on Your Shoulder"],
+    "url": "https://arammayhem.com/combo/singed-devil-on-your-shoulder-811/"
+  },
+  {
+    "championId": "Singed",
+    "augments": ["Ethereal Weapon", "Tap Dancer"],
+    "url": "https://arammayhem.com/combo/singed-ethereal-weapon-812/"
+  },
+  {
+    "championId": "Renata",
+    "augments": [
+      "Quest: Wooglet's Witchcap",
+      "Mad Scientist",
+      "Hand of Baron",
+      "Goliath",
+      "Zealot"
+    ],
+    "url": "https://arammayhem.com/combo/renata-quest-wooglets-witchcap-813/"
+  },
+  {
+    "championId": "Smolder",
+    "augments": ["Jeweled Gauntlet", "Upgrade Infinity Edge", "Scopier Weapons"],
+    "url": "https://arammayhem.com/combo/smolder-jeweled-gauntlet-814/"
+  },
+  {
+    "championId": "Smolder",
+    "augments": ["Mystic Punch", "Scopier Weapons", "Mad Scientist", "Back To Basics"],
+    "url": "https://arammayhem.com/combo/smolder-mystic-punch-815/"
+  },
+  {
+    "championId": "Ziggs",
+    "augments": [
+      "Infinite Recursion",
+      "Shrink Engine",
+      "Eureka",
+      "Recursion",
+      "Weighted Popoffs",
+      "With Haste",
+      "Homeguard"
+    ],
+    "url": "https://arammayhem.com/combo/ziggs-infinite-recursion-818/"
+  },
+  {
+    "championId": "Alistar",
+    "augments": ["Infinite Recursion", "Mind to Matter", "Ocean Soul", "Shrink Engine"],
+    "url": "https://arammayhem.com/combo/alistar-infinite-recursion-819/"
+  },
+  {
+    "championId": "Alistar",
+    "augments": ["Executioner", "Infinite Recursion", "Shrink Engine", "Phenomenal Evil", "Eureka"],
+    "url": "https://arammayhem.com/combo/alistar-executioner-820/"
+  },
+  {
+    "championId": "Alistar",
+    "augments": [
+      "Courage of the Colossus",
+      "Protein Shake",
+      "Tank Engine",
+      "Quest: Steel Your Heart",
+      "Goliath"
+    ],
+    "url": "https://arammayhem.com/combo/alistar-courage-of-the-colossus-821/"
+  },
+  {
+    "championId": "Briar",
+    "augments": ["Upgrade Infinity Edge", "Vampirism", "Critical Healing", "Upgrade Collector"],
+    "url": "https://arammayhem.com/combo/briar-upgrade-infinity-edge-824/"
+  },
+  {
+    "championId": "Kennen",
+    "augments": ["ADAPt"],
+    "url": "https://arammayhem.com/combo/kennen-adapt-827/"
+  },
+  {
+    "championId": "Nidalee",
+    "augments": ["Biggest Snowball Ever", "Snowball Upgrade", "Pinball"],
+    "url": "https://arammayhem.com/combo/nidalee-biggest-snowball-ever-828/"
+  },
+  {
+    "championId": "Vladimir",
+    "augments": ["Void Rift", "Recursion", "Don't Blink"],
+    "url": "https://arammayhem.com/combo/vladimir-void-rift-829/"
+  },
+  {
+    "championId": "Vladimir",
+    "augments": ["Infernal Conduit", "Recursion", "Eureka", "Bread And Jam"],
+    "url": "https://arammayhem.com/combo/vladimir-infernal-conduit-831/"
+  },
+  {
+    "championId": "Vladimir",
+    "augments": ["Circle of Death", "Goliath"],
+    "url": "https://arammayhem.com/combo/vladimir-circle-of-death-832/"
+  },
+  {
+    "championId": "Sona",
+    "augments": ["Jeweled Gauntlet", "ADAPt"],
+    "url": "https://arammayhem.com/combo/sona-jeweled-gauntlet-833/"
+  },
+  {
+    "championId": "Zac",
+    "augments": ["Circle of Death", "Protein Shake", "First-Aid Kit", "Tank Engine"],
+    "url": "https://arammayhem.com/combo/zac-circle-of-death-836/"
+  },
+  {
+    "championId": "Zac",
+    "augments": ["Protein Shake", "Critical Healing"],
+    "url": "https://arammayhem.com/combo/zac-protein-shake-837/"
+  },
+  {
+    "championId": "Yasuo",
+    "augments": [
+      "Mystic Punch",
+      "Rabble Rousing",
+      "Critical Healing",
+      "Tank It Or Leave It",
+      "Slow And Steady"
+    ],
+    "url": "https://arammayhem.com/combo/yasuo-mystic-punch-838/"
+  },
+  {
+    "championId": "Yasuo",
+    "augments": [
+      "Critical Healing",
+      "Protein Shake",
+      "Deft",
+      "Mighty Shield",
+      "Quest: Steel Your Heart",
+      "Tank It Or Leave It"
+    ],
+    "url": "https://arammayhem.com/combo/yasuo-critical-healing-839/"
+  },
+  {
+    "championId": "Evelynn",
+    "augments": ["Void Rift", "Recursion", "Shadow Runner"],
+    "url": "https://arammayhem.com/combo/evelynn-void-rift-840/"
+  },
+  {
+    "championId": "Twitch",
+    "augments": ["Magic Missile", "Bread And Jam", "Eureka"],
+    "url": "https://arammayhem.com/combo/twitch-magic-missile-841/"
+  },
+  {
+    "championId": "Naafiri",
+    "augments": ["Triggered Inferno", "Blade Waltz", "Final City Transit"],
+    "url": "https://arammayhem.com/combo/naafiri-triggered-inferno-842/"
+  },
+  {
+    "championId": "Naafiri",
+    "augments": ["Ethereal Weapon", "Vulnerability", "Gash", "Executioner"],
+    "url": "https://arammayhem.com/combo/naafiri-ethereal-weapon-844/"
+  },
+  {
+    "championId": "Diana",
+    "augments": ["Purist - Caster"],
+    "url": "https://arammayhem.com/combo/diana-purist-caster-845/"
+  },
+  {
+    "championId": "Caitlyn",
+    "augments": ["Scopier Weapons", "Scopiest Weapons", "Scoped Weapons"],
+    "url": "https://arammayhem.com/combo/caitlyn-scopier-weapons-848/"
+  },
+  {
+    "championId": "Caitlyn",
+    "augments": [
+      "Jeweled Gauntlet",
+      "Upgrade Infinity Edge",
+      "Slow And Steady",
+      "Giant Slayer",
+      "Blunt Force",
+      "escAPADe",
+      "From Beginning To End"
+    ],
+    "url": "https://arammayhem.com/combo/caitlyn-jeweled-gauntlet-849/"
+  },
+  {
+    "championId": "Vi",
+    "augments": ["Fan The Hammer"],
+    "url": "https://arammayhem.com/combo/vi-fan-the-hammer-851/"
+  },
+  {
+    "championId": "Vi",
+    "augments": ["Dashing", "Ethereal Weapon", "Final City Transit", "Double Tap"],
+    "url": "https://arammayhem.com/combo/vi-dashing-852/"
+  },
+  {
+    "championId": "Viego",
+    "augments": ["Jeweled Gauntlet", "Upgrade Infinity Edge", "Scopier Weapons", "Vampirism"],
+    "url": "https://arammayhem.com/combo/viego-jeweled-gauntlet-854/"
+  },
+  {
+    "championId": "Warwick",
+    "augments": ["Circle of Death", "Critical Healing", "First-Aid Kit", "Zealot"],
+    "url": "https://arammayhem.com/combo/warwick-circle-of-death-856/"
+  },
+  {
+    "championId": "DrMundo",
+    "augments": ["Vulnerability", "Slow Cooker", "Dropkick"],
+    "url": "https://arammayhem.com/combo/drmundo-vulnerability-857/"
+  },
+  {
+    "championId": "DrMundo",
+    "augments": ["Tank Engine", "Quest: Steel Your Heart", "Heavy Hitter", "Goliath", "Dropkick"],
+    "url": "https://arammayhem.com/combo/drmundo-tank-engine-858/"
+  },
+  {
+    "championId": "Zeri",
+    "augments": ["Rabble Rousing", "Goliath", "Tank Engine", "Critical Healing"],
+    "url": "https://arammayhem.com/combo/zeri-rabble-rousing-860/"
+  },
+  {
+    "championId": "Akali",
+    "augments": ["Void Rift"],
+    "url": "https://arammayhem.com/combo/akali-void-rift-863/"
+  },
+  {
+    "championId": "Akali",
+    "augments": ["Zealot", "Slow And Steady", "ADAPt", "Deft", "Purist - Caster"],
+    "url": "https://arammayhem.com/combo/akali-zealot-864/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["ADAPt", "Mind to Matter", "Goliath", "Quest: Wooglet's Witchcap"],
+    "url": "https://arammayhem.com/combo/ryze-adapt-865/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Mind to Matter", "Overflow", "Infinite Recursion", "Eureka"],
+    "url": "https://arammayhem.com/combo/ryze-mind-to-matter-866/"
+  },
+  {
+    "championId": "KSante",
+    "augments": ["Dashing", "Outlaw's Grit", "Tank Engine", "Quest: Steel Your Heart"],
+    "url": "https://arammayhem.com/combo/ksante-dashing-867/"
+  },
+  {
+    "championId": "KSante",
+    "augments": [
+      "Protein Shake",
+      "First-Aid Kit",
+      "Outlaw's Grit",
+      "Back To Basics",
+      "Critical Healing"
+    ],
+    "url": "https://arammayhem.com/combo/ksante-protein-shake-868/"
+  },
+  {
+    "championId": "Ivern",
+    "augments": ["Protein Shake", "All For You", "First-Aid Kit"],
+    "url": "https://arammayhem.com/combo/ivern-protein-shake-869/"
+  },
+  {
+    "championId": "Sett",
+    "augments": [
+      "Goliath",
+      "Mad Scientist",
+      "Quest: Steel Your Heart",
+      "Tank Engine",
+      "Heavy Hitter",
+      "Dropkick"
+    ],
+    "url": "https://arammayhem.com/combo/sett-goliath-871/"
+  },
+  {
+    "championId": "Corki",
+    "augments": ["Jeweled Gauntlet", "Vulnerability"],
+    "url": "https://arammayhem.com/combo/corki-jeweled-gauntlet-874/"
+  },
+  {
+    "championId": "Corki",
+    "augments": ["Triggered Inferno"],
+    "url": "https://arammayhem.com/combo/corki-triggered-inferno-875/"
+  },
+  {
+    "championId": "Zyra",
+    "augments": ["Void Rift", "Don't Blink", "Slap Around", "Phenomenal Evil"],
+    "url": "https://arammayhem.com/combo/zyra-void-rift-877/"
+  },
+  {
+    "championId": "Draven",
+    "augments": [
+      "Jeweled Gauntlet",
+      "Giant Slayer",
+      "Draw Your Sword",
+      "Blunt Force",
+      "Spin To Win"
+    ],
+    "url": "https://arammayhem.com/combo/draven-jeweled-gauntlet-882/"
+  },
+  {
+    "championId": "Blitzcrank",
+    "augments": ["Upgrade Infinity Edge", "Upgrade Collector", "Slow And Steady", "Blunt Force"],
+    "url": "https://arammayhem.com/combo/blitzcrank-upgrade-infinity-edge-885/"
+  },
+  {
+    "championId": "Blitzcrank",
+    "augments": ["Ethereal Weapon", "Twin Fire", "Firebrand"],
+    "url": "https://arammayhem.com/combo/blitzcrank-ethereal-weapon-886/"
+  },
+  {
+    "championId": "Blitzcrank",
+    "augments": ["Clown College", "It's Killing Time", "Jeweled Gauntlet"],
+    "url": "https://arammayhem.com/combo/blitzcrank-clown-college-887/"
+  },
+  {
+    "championId": "Blitzcrank",
+    "augments": ["Executioner", "Recursion", "Bread And Butter"],
+    "url": "https://arammayhem.com/combo/blitzcrank-executioner-888/"
+  },
+  {
+    "championId": "Kaisa",
+    "augments": ["Mystic Punch"],
+    "url": "https://arammayhem.com/combo/kaisa-mystic-punch-889/"
+  },
+  {
+    "championId": "Kaisa",
+    "augments": ["Ethereal Weapon", "ADAPt", "Quest: Wooglet's Witchcap", "Executioner"],
+    "url": "https://arammayhem.com/combo/kaisa-ethereal-weapon-890/"
+  },
+  {
+    "championId": "Belveth",
+    "augments": ["Slow And Steady", "Tap Dancer", "Shrink Engine", "Deft", "Blunt Force"],
+    "url": "https://arammayhem.com/combo/belveth-slow-and-steady-895/"
+  },
+  {
+    "championId": "Belveth",
+    "augments": ["Tap Dancer", "Shrink Engine", "Quest: Steel Your Heart", "Master of Duality"],
+    "url": "https://arammayhem.com/combo/belveth-tap-dancer-896/"
+  },
+  {
+    "championId": "Belveth",
+    "augments": ["Mystic Punch", "Vampirism", "Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/belveth-mystic-punch-897/"
+  },
+  {
+    "championId": "Chogath",
+    "augments": ["Quest: Steel Your Heart", "ADAPt", "Tank Engine", "Goliath"],
+    "url": "https://arammayhem.com/combo/chogath-quest-steel-your-heart-899/"
+  },
+  {
+    "championId": "Chogath",
+    "augments": ["Tank Engine", "Quest: Steel Your Heart", "Goliath", "Dropkick"],
+    "url": "https://arammayhem.com/combo/chogath-tank-engine-900/"
+  },
+  {
+    "championId": "Chogath",
+    "augments": ["Shrink Engine", "Soul Eater", "Infinite Recursion"],
+    "url": "https://arammayhem.com/combo/chogath-shrink-engine-901/"
+  },
+  {
+    "championId": "Khazix",
+    "augments": ["Upgrade Hubris", "Shrink Engine", "Final Form", "Get Excited!"],
+    "url": "https://arammayhem.com/combo/khazix-upgrade-hubris-902/"
+  },
+  {
+    "championId": "Kassadin",
+    "augments": ["Void Rift", "Don't Blink", "Mind to Matter"],
+    "url": "https://arammayhem.com/combo/kassadin-void-rift-905/"
+  },
+  {
+    "championId": "Kassadin",
+    "augments": ["Don't Blink", "Ice Cold", "Mind to Matter"],
+    "url": "https://arammayhem.com/combo/kassadin-dont-blink-906/"
+  },
+  {
+    "championId": "Tryndamere",
+    "augments": [
+      "Scopier Weapons",
+      "Get Excited!",
+      "Mystic Punch",
+      "Upgrade Infinity Edge",
+      "Double Tap",
+      "Critical Rhythm"
+    ],
+    "url": "https://arammayhem.com/combo/tryndamere-scopier-weapons-910/"
+  },
+  {
+    "championId": "Tryndamere",
+    "augments": [
+      "Circle of Death",
+      "Back To Basics",
+      "Critical Healing",
+      "ADAPt",
+      "Slow And Steady"
+    ],
+    "url": "https://arammayhem.com/combo/tryndamere-circle-of-death-911/"
+  },
+  {
+    "championId": "Tryndamere",
+    "augments": ["Master of Duality", "Zealot", "Crit 'n Cast", "Tap Dancer"],
+    "url": "https://arammayhem.com/combo/tryndamere-master-of-duality-912/"
+  },
+  {
+    "championId": "Elise",
+    "augments": ["Jeweled Gauntlet", "Phenomenal Evil"],
+    "url": "https://arammayhem.com/combo/elise-jeweled-gauntlet-913/"
+  },
+  {
+    "championId": "Pyke",
+    "augments": ["Goliath", "Mad Scientist"],
+    "url": "https://arammayhem.com/combo/pyke-goliath-914/"
+  },
+  {
+    "championId": "Sylas",
+    "augments": ["Juiced"],
+    "url": "https://arammayhem.com/combo/sylas-juiced-916/"
+  },
+  {
+    "championId": "Sylas",
+    "augments": ["Purist - Caster"],
+    "url": "https://arammayhem.com/combo/sylas-purist-caster-917/"
+  },
+  {
+    "championId": "Darius",
+    "augments": ["Jeweled Gauntlet", "Upgrade Infinity Edge", "escAPADe", "Get Excited!"],
+    "url": "https://arammayhem.com/combo/darius-jeweled-gauntlet-919/"
+  },
+  {
+    "championId": "Darius",
+    "augments": ["Back To Basics", "Get Excited!", "Scopier Weapons"],
+    "url": "https://arammayhem.com/combo/darius-back-to-basics-920/"
+  },
+  {
+    "championId": "MissFortune",
+    "augments": ["Void Rift", "Don't Blink"],
+    "url": "https://arammayhem.com/combo/missfortune-void-rift-923/"
+  },
+  {
+    "championId": "MissFortune",
+    "augments": [
+      "Mind to Matter",
+      "Ocean Soul",
+      "Eureka",
+      "Infinite Recursion",
+      "Shrink Engine",
+      "Ice Cold"
+    ],
+    "url": "https://arammayhem.com/combo/missfortune-mind-to-matter-925/"
+  },
+  {
+    "championId": "MissFortune",
+    "augments": ["Eureka", "Ice Cold", "Magic Missile", "Bread and Cheese"],
+    "url": "https://arammayhem.com/combo/missfortune-eureka-926/"
+  },
+  {
+    "championId": "Teemo",
+    "augments": ["Mystic Punch", "Dual Wield", "Deft"],
+    "url": "https://arammayhem.com/combo/teemo-mystic-punch-927/"
+  },
+  {
+    "championId": "Teemo",
+    "augments": [
+      "Eureka",
+      "Shrink Engine",
+      "Mad Scientist",
+      "Infinite Recursion",
+      "It's Killing Time"
+    ],
+    "url": "https://arammayhem.com/combo/teemo-eureka-929/"
+  },
+  {
+    "championId": "Fiddlesticks",
+    "augments": ["ADAPt", "From Beginning To End", "Mad Scientist", "Goliath"],
+    "url": "https://arammayhem.com/combo/fiddlesticks-adapt-932/"
+  },
+  {
+    "championId": "Fiddlesticks",
+    "augments": ["Void Rift"],
+    "url": "https://arammayhem.com/combo/fiddlesticks-void-rift-933/"
+  },
+  {
+    "championId": "Gnar",
+    "augments": [
+      "Fan The Hammer",
+      "Dual Wield",
+      "Twice Thrice",
+      "Quest: Wooglet's Witchcap",
+      "Deft"
+    ],
+    "url": "https://arammayhem.com/combo/gnar-fan-the-hammer-934/"
+  },
+  {
+    "championId": "Xayah",
+    "augments": [
+      "Upgrade Infinity Edge",
+      "Upgrade Collector",
+      "Soul Siphon",
+      "Vampirism",
+      "Critical Rhythm",
+      "Deft",
+      "Critical Healing",
+      "Double Tap",
+      "Tank It Or Leave It",
+      "Zealot",
+      "Crit 'n Cast",
+      "Cerberus",
+      "Tap Dancer",
+      "Symphony of War",
+      "Get Excited!"
+    ],
+    "url": "https://arammayhem.com/combo/xayah-upgrade-infinity-edge-935/"
+  },
+  {
+    "championId": "Veigar",
+    "augments": ["Marksmage", "Thread the Needle", "Upgrade Sheen", "Zealot"],
+    "url": "https://arammayhem.com/combo/veigar-marksmage-937/"
+  },
+  {
+    "championId": "Veigar",
+    "augments": ["Infinite Recursion", "Recursion", "Shrink Engine", "Eureka"],
+    "url": "https://arammayhem.com/combo/veigar-infinite-recursion-938/"
+  },
+  {
+    "championId": "Veigar",
+    "augments": ["Phenomenal Evil", "Overflow", "Slap Around", "Jeweled Gauntlet"],
+    "url": "https://arammayhem.com/combo/veigar-phenomenal-evil-939/"
+  },
+  {
+    "championId": "Gragas",
+    "augments": ["ADAPt", "Goliath", "Mad Scientist", "Slap Around", "Phenomenal Evil"],
+    "url": "https://arammayhem.com/combo/gragas-adapt-940/"
+  },
+  {
+    "championId": "Ambessa",
+    "augments": ["Clown College", "Dive Bomber", "Final City Transit", "Giant Slayer"],
+    "url": "https://arammayhem.com/combo/ambessa-clown-college-941/"
+  },
+  {
+    "championId": "Ambessa",
+    "augments": ["Jeweled Gauntlet", "Rabble Rousing", "Upgrade Hubris", "Executioner"],
+    "url": "https://arammayhem.com/combo/ambessa-jeweled-gauntlet-942/"
+  },
+  {
+    "championId": "Mordekaiser",
+    "augments": ["Circle of Death", "Protein Shake", "Executioner"],
+    "url": "https://arammayhem.com/combo/mordekaiser-circle-of-death-944/"
+  },
+  {
+    "championId": "AurelionSol",
+    "augments": ["Void Rift", "Don't Blink", "Ice Cold"],
+    "url": "https://arammayhem.com/combo/aurelionsol-void-rift-945/"
+  },
+  {
+    "championId": "AurelionSol",
+    "augments": ["Shrink Engine", "Phenomenal Evil", "Infinite Recursion", "Recursion"],
+    "url": "https://arammayhem.com/combo/aurelionsol-shrink-engine-946/"
+  },
+  {
+    "championId": "AurelionSol",
+    "augments": ["Mind to Matter", "Ocean Soul"],
+    "url": "https://arammayhem.com/combo/aurelionsol-mind-to-matter-947/"
+  },
+  {
+    "championId": "Rell",
+    "augments": ["Cruelty", "Tank Engine", "Quest: Steel Your Heart", "Goliath"],
+    "url": "https://arammayhem.com/combo/rell-cruelty-951/"
+  },
+  {
+    "championId": "Nunu",
+    "augments": [
+      "Circle of Death",
+      "Critical Healing",
+      "Heavy Hitter",
+      "Goliath",
+      "Tank Engine",
+      "Mind to Matter",
+      "Quest: Steel Your Heart"
+    ],
+    "url": "https://arammayhem.com/combo/nunu-circle-of-death-953/"
+  },
+  {
+    "championId": "Janna",
+    "augments": [
+      "Circle of Death",
+      "Overflow",
+      "Ultimate Revolution",
+      "First-Aid Kit",
+      "Slap Around"
+    ],
+    "url": "https://arammayhem.com/combo/janna-circle-of-death-957/"
+  },
+  {
+    "championId": "Thresh",
+    "augments": [
+      "Marksmage",
+      "Lightning Strikes",
+      "Dual Wield",
+      "ADAPt",
+      "Twice Thrice",
+      "Thread the Needle"
+    ],
+    "url": "https://arammayhem.com/combo/thresh-marksmage-958/"
+  },
+  {
+    "championId": "Yuumi",
+    "augments": ["Circle of Death", "Perseverance", "Critical Healing"],
+    "url": "https://arammayhem.com/combo/yuumi-circle-of-death-959/"
+  },
+  {
+    "championId": "Cassiopeia",
+    "augments": ["Cruelty"],
+    "url": "https://arammayhem.com/combo/cassiopeia-cruelty-960/"
+  },
+  {
+    "championId": "Annie",
+    "augments": ["It's Killing Time", "Eureka", "Infinite Recursion", "Phenomenal Evil"],
+    "url": "https://arammayhem.com/combo/annie-its-killing-time-962/"
+  },
+  {
+    "championId": "Shyvana",
+    "augments": ["Ultimate Awakening", "Bread and Cheese", "Magic Missile", "Skilled Sniper"],
+    "url": "https://arammayhem.com/combo/shyvana-ultimate-awakening-966/"
+  },
+  {
+    "championId": "Pyke",
+    "augments": ["Shrink Engine", "Slap Around", "Goliath", "Soul Eater"],
+    "url": "https://arammayhem.com/combo/pyke-shrink-engine-968/"
+  },
+  {
+    "championId": "Vladimir",
+    "augments": ["ADAPt", "Quest: Steel Your Heart", "Tank Engine", "Tap Dancer"],
+    "url": "https://arammayhem.com/combo/vladimir-adapt-969/"
+  },
+  {
+    "championId": "Blitzcrank",
+    "augments": ["Mind to Matter", "Ocean Soul", "Eureka"],
+    "url": "https://arammayhem.com/combo/blitzcrank-mind-to-matter-970/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Void Rift", "ADAPt", "Tank Engine", "Mad Scientist"],
+    "url": "https://arammayhem.com/combo/ryze-void-rift-971/"
+  },
+  {
+    "championId": "TahmKench",
+    "augments": ["Goliath", "Quest: Steel Your Heart", "Tank Engine", "ADAPt"],
+    "url": "https://arammayhem.com/combo/tahmkench-goliath-972/"
+  },
+  {
+    "championId": "Hecarim",
+    "augments": ["Overflow", "Dropkick", "Mind to Matter", "Ocean Soul"],
+    "url": "https://arammayhem.com/combo/hecarim-overflow-973/"
+  },
+  {
+    "championId": "AurelionSol",
+    "augments": ["Infernal Conduit", "Grandma's Chili Oil", "Bread and Cheese"],
+    "url": "https://arammayhem.com/combo/aurelionsol-infernal-conduit-976/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Tank Engine", "Phenomenal Evil", "ADAPt", "Goliath"],
+    "url": "https://arammayhem.com/combo/ryze-tank-engine-978/"
+  },
+  {
+    "championId": "Lucian",
+    "augments": ["Clown College"],
+    "url": "https://arammayhem.com/combo/lucian-clown-college-979/"
+  },
+  {
+    "championId": "Yasuo",
+    "augments": ["Shadow Runner", "Restless Restoration", "Critical Healing", "Vampirism"],
+    "url": "https://arammayhem.com/combo/yasuo-shadow-runner-981/"
+  },
+  {
+    "championId": "Vladimir",
+    "augments": ["Ethereal Weapon", "Mystic Punch"],
+    "url": "https://arammayhem.com/combo/vladimir-ethereal-weapon-982/"
+  },
+  {
+    "championId": "TwistedFate",
+    "augments": ["Jeweled Gauntlet", "Giant Slayer", "Executioner", "Magic Missile"],
+    "url": "https://arammayhem.com/combo/twistedfate-jeweled-gauntlet-983/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Goliath", "Mind to Matter", "ADAPt", "Tank Engine"],
+    "url": "https://arammayhem.com/combo/ryze-goliath-984/"
+  },
+  {
+    "championId": "Quinn",
+    "augments": ["Poro Blaster", "Dual Wield", "Giant Slayer", "Double Tap"],
+    "url": "https://arammayhem.com/combo/quinn-poro-blaster-985/"
+  },
+  {
+    "championId": "Ekko",
+    "augments": ["Jeweled Gauntlet", "Double Tap", "Marksmage", "Executioner"],
+    "url": "https://arammayhem.com/combo/ekko-jeweled-gauntlet-986/"
+  },
+  {
+    "championId": "Senna",
+    "augments": ["Master of Duality", "Stats on Stats on Stats!", "Giant Slayer"],
+    "url": "https://arammayhem.com/combo/senna-master-of-duality-987/"
+  },
+  {
+    "championId": "XinZhao",
+    "augments": ["Mad Scientist", "Back To Basics", "Master of Duality", "Dual Wield"],
+    "url": "https://arammayhem.com/combo/xinzhao-mad-scientist-988/"
+  },
+  {
+    "championId": "Volibear",
+    "augments": ["Deft", "Zealot", "Mystic Punch", "Master of Duality"],
+    "url": "https://arammayhem.com/combo/volibear-deft-990/"
+  },
+  {
+    "championId": "Yuumi",
+    "augments": ["Circle of Death", "Tank Engine"],
+    "url": "https://arammayhem.com/combo/yuumi-circle-of-death-991/"
+  },
+  {
+    "championId": "Shaco",
+    "augments": ["Clown College", "Infinite Recursion", "Executioner", "Shadow Runner"],
+    "url": "https://arammayhem.com/combo/shaco-clown-college-992/"
+  },
+  {
+    "championId": "Thresh",
+    "augments": ["Quest: Steel Your Heart", "Shrink Engine", "Soul Eater"],
+    "url": "https://arammayhem.com/combo/thresh-quest-steel-your-heart-993/"
+  },
+  {
+    "championId": "Leblanc",
+    "augments": ["Buff Buddies", "Ocean Soul", "Mind to Matter", "Overflow"],
+    "url": "https://arammayhem.com/combo/leblanc-buff-buddies-996/"
+  },
+  {
+    "championId": "Rengar",
+    "augments": ["Vampirism"],
+    "url": "https://arammayhem.com/combo/rengar-vampirism-997/"
+  },
+  {
+    "championId": "Galio",
+    "augments": [
+      "Biggest Snowball Ever",
+      "Snowball Upgrade",
+      "Snowball Roulette",
+      "Quest: Wooglet's Witchcap"
+    ],
+    "url": "https://arammayhem.com/combo/galio-biggest-snowball-ever-999/"
+  },
+  {
+    "championId": "XinZhao",
+    "augments": ["Mystic Punch", "Quest: Wooglet's Witchcap", "Critical Healing", "Typhoon"],
+    "url": "https://arammayhem.com/combo/xinzhao-mystic-punch-1004/"
+  },
+  {
+    "championId": "Fizz",
+    "augments": ["Void Rift"],
+    "url": "https://arammayhem.com/combo/fizz-void-rift-1007/"
+  },
+  {
+    "championId": "Twitch",
+    "augments": ["Tap Dancer", "Dual Wield", "Giant Slayer", "Scopiest Weapons"],
+    "url": "https://arammayhem.com/combo/twitch-tap-dancer-1009/"
+  },
+  {
+    "championId": "Blitzcrank",
+    "augments": ["Mystic Punch", "Eureka", "Soul Eater"],
+    "url": "https://arammayhem.com/combo/blitzcrank-mystic-punch-1012/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Mind to Matter", "Overflow", "ADAPt", "Goliath"],
+    "url": "https://arammayhem.com/combo/ryze-mind-to-matter-1013/"
+  },
+  {
+    "championId": "Graves",
+    "augments": ["Marksmage", "ADAPt", "Slow And Steady", "Zealot"],
+    "url": "https://arammayhem.com/combo/graves-marksmage-1014/"
+  },
+  {
+    "championId": "Mordekaiser",
+    "augments": ["Holy Fire", "Symphony of War"],
+    "url": "https://arammayhem.com/combo/mordekaiser-holy-fire-1015/"
+  },
+  {
+    "championId": "Graves",
+    "augments": ["Marksmage", "ADAPt", "Zealot", "Back To Basics"],
+    "url": "https://arammayhem.com/combo/graves-marksmage-1016/"
+  },
+  {
+    "championId": "MasterYi",
+    "augments": ["Upgrade Hubris", "Executioner", "Infinite Recursion", "Mystic Punch"],
+    "url": "https://arammayhem.com/combo/masteryi-upgrade-hubris-1017/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["ADAPt", "Mind to Matter", "Vampirism", "Goliath"],
+    "url": "https://arammayhem.com/combo/ryze-adapt-1018/"
+  },
+  {
+    "championId": "Yunara",
+    "augments": ["Critical Missile", "Dual Wield", "Upgrade Infinity Edge", "Vampirism"],
+    "url": "https://arammayhem.com/combo/yunara-critical-missile-1019/"
+  },
+  {
+    "championId": "Soraka",
+    "augments": ["Tank Engine", "First-Aid Kit", "Perseverance", "Rabble Rousing"],
+    "url": "https://arammayhem.com/combo/soraka-tank-engine-1020/"
+  },
+  {
+    "championId": "Senna",
+    "augments": ["Protein Shake"],
+    "url": "https://arammayhem.com/combo/senna-protein-shake-1021/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["escAPADe", "Mind to Matter", "Quest: Wooglet's Witchcap", "Goliath"],
+    "url": "https://arammayhem.com/combo/ryze-escapade-1022/"
+  },
+  {
+    "championId": "Galio",
+    "augments": ["Grandma's Chili Oil", "Phenomenal Evil", "Buff Buddies", "Slow Cooker"],
+    "url": "https://arammayhem.com/combo/galio-grandmas-chili-oil-1023/"
+  },
+  {
+    "championId": "LeeSin",
+    "augments": ["Crack Open That Egg", "Critical Healing"],
+    "url": "https://arammayhem.com/combo/leesin-crack-open-that-egg-1024/"
+  },
+  {
+    "championId": "Briar",
+    "augments": ["Mystic Punch", "Vampirism", "Upgrade Hubris", "Executioner"],
+    "url": "https://arammayhem.com/combo/briar-mystic-punch-1025/"
+  },
+  {
+    "championId": "Garen",
+    "augments": ["Slow And Steady", "Protein Shake"],
+    "url": "https://arammayhem.com/combo/garen-slow-and-steady-1026/"
+  },
+  {
+    "championId": "Rammus",
+    "augments": ["Protein Shake", "Gash"],
+    "url": "https://arammayhem.com/combo/rammus-protein-shake-1027/"
+  },
+  {
+    "championId": "Aatrox",
+    "augments": ["Jeweled Gauntlet", "Critical Healing", "Soul Siphon"],
+    "url": "https://arammayhem.com/combo/aatrox-jeweled-gauntlet-1028/"
+  },
+  {
+    "championId": "Milio",
+    "augments": ["Eureka", "Jeweled Gauntlet", "Cruelty", "Back To Basics"],
+    "url": "https://arammayhem.com/combo/milio-eureka-1029/"
+  },
+  {
+    "championId": "Malphite",
+    "augments": ["Eureka", "Dashing", "Quest: Wooglet's Witchcap", "Ultimate Revolution"],
+    "url": "https://arammayhem.com/combo/malphite-eureka-1030/"
+  },
+  {
+    "championId": "Singed",
+    "augments": ["Slap Around", "Soul Eater", "Tank Engine", "Infinite Recursion"],
+    "url": "https://arammayhem.com/combo/singed-slap-around-1031/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Mind to Matter", "ADAPt", "Overflow", "Back To Basics"],
+    "url": "https://arammayhem.com/combo/ryze-qqq/"
+  },
+  {
+    "championId": "Vayne",
+    "augments": ["Protein Shake", "Twice Thrice", "First-Aid Kit"],
+    "url": "https://arammayhem.com/combo/vayne-protein-shake-1033/"
+  },
+  {
+    "championId": "Lux",
+    "augments": ["Eureka", "Jeweled Gauntlet", "Quest: Wooglet's Witchcap"],
+    "url": "https://arammayhem.com/combo/lux-eureka-1034/"
+  },
+  {
+    "championId": "JarvanIV",
+    "augments": ["Tank Engine", "Quest: Steel Your Heart", "Apex Inventor", "Heavy Hitter"],
+    "url": "https://arammayhem.com/combo/jarvaniv-tank-engine-1035/"
+  },
+  {
+    "championId": "Varus",
+    "augments": ["ADAPt", "Master of Duality", "Marksmage", "Thread the Needle"],
+    "url": "https://arammayhem.com/combo/varus-adapt-1036/"
+  },
+  {
+    "championId": "MasterYi",
+    "augments": ["Upgrade Collector", "Executioner", "Cerberus", "Vampirism"],
+    "url": "https://arammayhem.com/combo/masteryi-upgrade-collector-1037/"
+  },
+  {
+    "championId": "Singed",
+    "augments": ["Shrink Engine", "Courage of the Colossus"],
+    "url": "https://arammayhem.com/combo/singed-shrink-engine-1038/"
+  },
+  {
+    "championId": "Kaisa",
+    "augments": ["Marksmage", "Zealot", "Master of Duality", "Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/kaisa-marksmage-1039/"
+  },
+  {
+    "championId": "Anivia",
+    "augments": ["Fey Magic", "Magic Missile", "It's Killing Time"],
+    "url": "https://arammayhem.com/combo/anivia-fey-magic-1040/"
+  },
+  {
+    "championId": "Shaco",
+    "augments": ["Bread And Jam", "Eureka", "Infernal Conduit", "Recursion"],
+    "url": "https://arammayhem.com/combo/shaco-bread-and-jam-1041/"
+  },
+  {
+    "championId": "Galio",
+    "augments": ["Cruelty", "Void Rift", "Quest: Wooglet's Witchcap", "Clown College"],
+    "url": "https://arammayhem.com/combo/galio-cruelty-1042/"
+  },
+  {
+    "championId": "Ekko",
+    "augments": ["Executioner", "Eureka", "Dashing", "Ultimate Revolution"],
+    "url": "https://arammayhem.com/combo/ekko-executioner-1043/"
+  },
+  {
+    "championId": "MasterYi",
+    "augments": ["Celestial Body", "Circle of Death", "First-Aid Kit", "Cheating"],
+    "url": "https://arammayhem.com/combo/masteryi-celestial-body-1044/"
+  },
+  {
+    "championId": "Aphelios",
+    "augments": ["Draw Your Sword", "Upgrade Hubris", "Upgrade Collector", "Upgrade Cutlass"],
+    "url": "https://arammayhem.com/combo/aphelios-draw-your-sword-1045/"
+  },
+  {
+    "championId": "Yasuo",
+    "augments": ["Courage of the Colossus", "Critical Healing"],
+    "url": "https://arammayhem.com/combo/yasuo-courage-of-the-colossus-1046/"
+  },
+  {
+    "championId": "Graves",
+    "augments": ["Marksmage", "Slow And Steady", "Giant Slayer", "Dashing"],
+    "url": "https://arammayhem.com/combo/graves-marksmage-1047/"
+  },
+  {
+    "championId": "Warwick",
+    "augments": ["Quantum Computing", "Get Excited!", "Infernal Soul"],
+    "url": "https://arammayhem.com/combo/warwick-quantum-computing-1048/"
+  },
+  {
+    "championId": "Pantheon",
+    "augments": ["Ethereal Weapon", "Mystic Punch"],
+    "url": "https://arammayhem.com/combo/pantheon-ethereal-weapon-1050/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Goliath", "Mad Scientist", "ADAPt", "Mind to Matter"],
+    "url": "https://arammayhem.com/combo/ryze-0/"
+  },
+  {
+    "championId": "Vayne",
+    "augments": ["Double Tap"],
+    "url": "https://arammayhem.com/combo/vayne-double-tap-1052/"
+  },
+  {
+    "championId": "Yunara",
+    "augments": ["Double Tap", "Lightning Strikes", "Escape Plan"],
+    "url": "https://arammayhem.com/combo/yunara-double-tap-1053/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Goliath", "Tank Engine", "ADAPt", "Mad Scientist"],
+    "url": "https://arammayhem.com/combo/ryze-goliath-1054/"
+  },
+  {
+    "championId": "Vladimir",
+    "augments": ["Goliath", "Quest: Steel Your Heart", "ADAPt", "Tank Engine"],
+    "url": "https://arammayhem.com/combo/vladimir-goliath-1055/"
+  },
+  {
+    "championId": "Karthus",
+    "augments": ["Void Rift", "Ultimate Revolution"],
+    "url": "https://arammayhem.com/combo/karthus-void-rift-1056/"
+  },
+  {
+    "championId": "Hecarim",
+    "augments": ["Shrink Engine", "Dropkick", "Infinite Recursion", "Soul Eater"],
+    "url": "https://arammayhem.com/combo/hecarim-shrink-engine-1057/"
+  },
+  {
+    "championId": "Vladimir",
+    "augments": ["Purist - Caster"],
+    "url": "https://arammayhem.com/combo/vladimir-purist-caster-1058/"
+  },
+  {
+    "championId": "Blitzcrank",
+    "augments": ["Final City Transit", "Self Destruct", "Clown College", "It's Killing Time"],
+    "url": "https://arammayhem.com/combo/blitzcrank-final-city-transit-1059/"
+  },
+  {
+    "championId": "Hecarim",
+    "augments": ["Ultimate Awakening", "Magic Missile", "Get Excited!", "Rabble Rousing"],
+    "url": "https://arammayhem.com/combo/hecarim-ultimate-awakening-1060/"
+  },
+  {
+    "championId": "Singed",
+    "augments": ["Dropkick", "Void Rift", "Rabble Rousing", "Escape Plan"],
+    "url": "https://arammayhem.com/combo/singed-dropkick-1061/"
+  },
+  {
+    "championId": "Rengar",
+    "augments": ["Scopier Weapons", "Scoped Weapons", "Scopiest Weapons", "Final City Transit"],
+    "url": "https://arammayhem.com/combo/rengar-scopier-weapons-1062/"
+  },
+  {
+    "championId": "Tryndamere",
+    "augments": ["Giant Slayer", "Dual Wield", "Clown College", "Cerberus"],
+    "url": "https://arammayhem.com/combo/tryndamere-giant-slayer-1063/"
+  },
+  {
+    "championId": "Garen",
+    "augments": ["Void Immolation", "Protein Shake", "Slow And Steady", "Vulnerability"],
+    "url": "https://arammayhem.com/combo/garen-void-immolation-1064/"
+  },
+  {
+    "championId": "Zeri",
+    "augments": ["Giant Slayer", "Jeweled Gauntlet"],
+    "url": "https://arammayhem.com/combo/zeri-giant-slayer-1065/"
+  },
+  {
+    "championId": "Rell",
+    "augments": ["Goliath", "Courage of the Colossus", "Dropkick", "Cruelty"],
+    "url": "https://arammayhem.com/combo/rell-kkk/"
+  },
+  {
+    "championId": "Urgot",
+    "augments": ["Quest: Steel Your Heart", "Draw Your Sword", "Back To Basics", "Slap Around"],
+    "url": "https://arammayhem.com/combo/urgot-quest-steel-your-heart-1067/"
+  },
+  {
+    "championId": "Lucian",
+    "augments": ["Mystic Punch"],
+    "url": "https://arammayhem.com/combo/lucian-mystic-punch-1068/"
+  },
+  {
+    "championId": "Lissandra",
+    "augments": ["Void Rift", "Thread the Needle", "Ice Cold", "Homeguard"],
+    "url": "https://arammayhem.com/combo/lissandra-void-rift-1069/"
+  },
+  {
+    "championId": "Zed",
+    "augments": ["Upgrade Collector", "Upgrade Hubris", "Buff Buddies", "Jeweled Gauntlet"],
+    "url": "https://arammayhem.com/combo/zed-upgrade-collector-1070/"
+  },
+  {
+    "championId": "Ekko",
+    "augments": ["Blade Waltz"],
+    "url": "https://arammayhem.com/combo/ekko-blade-waltz-1071/"
+  },
+  {
+    "championId": "Galio",
+    "augments": ["Magic Missile", "Executioner", "Scopier Weapons", "Thread the Needle"],
+    "url": "https://arammayhem.com/combo/galio-magic-missile-1072/"
+  },
+  {
+    "championId": "Irelia",
+    "augments": ["Jeweled Gauntlet", "Eureka", "Executioner", "Bread And Butter"],
+    "url": "https://arammayhem.com/combo/irelia-jeweled-gauntlet-1073/"
+  },
+  {
+    "championId": "Trundle",
+    "augments": ["Slap Around", "Purist - Caster", "Zealot", "Ultimate Awakening"],
+    "url": "https://arammayhem.com/combo/trundle-slap-around-1074/"
+  },
+  {
+    "championId": "Volibear",
+    "augments": ["Rabble Rousing", "Mystic Punch", "Clown College", "First-Aid Kit"],
+    "url": "https://arammayhem.com/combo/volibear-rabble-rousing-1075/"
+  },
+  {
+    "championId": "Garen",
+    "augments": ["Double Tap", "Tap Dancer", "Slow And Steady", "Vampirism"],
+    "url": "https://arammayhem.com/combo/garen-double-tap-1076/"
+  },
+  {
+    "championId": "Jayce",
+    "augments": ["Jeweled Gauntlet", "Slow And Steady", "Skilled Sniper", "Purist - Caster"],
+    "url": "https://arammayhem.com/combo/jayce-jeweled-gauntlet-1077/"
+  },
+  {
+    "championId": "Garen",
+    "augments": ["Bounce of the Poro King", "Slow And Steady", "Spin To Win", "Blunt Force"],
+    "url": "https://arammayhem.com/combo/garen-bounce-of-the-poro-king-1078/"
+  },
+  {
+    "championId": "Kassadin",
+    "augments": ["Dashing", "Outlaw's Grit", "Shadow Runner", "Cant Touch This"],
+    "url": "https://arammayhem.com/combo/kassadin-dashing-1079/"
+  },
+  {
+    "championId": "Shyvana",
+    "augments": ["Double Tap", "escAPADe", "Final Form"],
+    "url": "https://arammayhem.com/combo/shyvana-double-tap-1080/"
+  },
+  {
+    "championId": "Maokai",
+    "augments": ["Protein Shake", "Courage of the Colossus", "Guilty Pleasure", "Critical Healing"],
+    "url": "https://arammayhem.com/combo/maokai-protein-shake-1081/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Mind to Matter", "ADAPt"],
+    "url": "https://arammayhem.com/combo/ryze-mind-to-matter-1082/"
+  },
+  {
+    "championId": "Katarina",
+    "augments": ["Protein Shake", "Slow And Steady", "Ultimate Unstoppable", "Spin To Win"],
+    "url": "https://arammayhem.com/combo/katarina-protein-shake-1083/"
+  },
+  {
+    "championId": "Garen",
+    "augments": ["Transmute: Prismatic", "Stats on Stats on Stats!", "Slow And Steady"],
+    "url": "https://arammayhem.com/combo/garen-transmute-prismatic-1084/"
+  },
+  {
+    "championId": "Briar",
+    "augments": ["Upgrade Collector", "Get Excited!", "Upgrade Infinity Edge", "Upgrade Hubris"],
+    "url": "https://arammayhem.com/combo/briar-upgrade-collector-1085/"
+  },
+  {
+    "championId": "Brand",
+    "augments": ["Void Rift", "Transmute: Chaos", "Transmute: Prismatic"],
+    "url": "https://arammayhem.com/combo/brand-void-rift-1086/"
+  },
+  {
+    "championId": "MissFortune",
+    "augments": ["Eureka", "Overflow", "Buff Buddies", "Speed Demon"],
+    "url": "https://arammayhem.com/combo/missfortune-eureka-1087/"
+  },
+  {
+    "championId": "Alistar",
+    "augments": ["Quest: Steel Your Heart", "Tank Engine", "Soul Eater", "Slow Cooker"],
+    "url": "https://arammayhem.com/combo/alistar-quest-steel-your-heart-1088/"
+  },
+  {
+    "championId": "Ezreal",
+    "augments": ["From Beginning To End", "Draw Your Sword", "Back To Basics", "Upgrade Sheen"],
+    "url": "https://arammayhem.com/combo/ezreal-from-beginning-to-end-1089/"
+  },
+  {
+    "championId": "Mel",
+    "augments": ["Executioner", "Bread And Butter", "Void Rift", "Infinite Recursion"],
+    "url": "https://arammayhem.com/combo/mel-executioner-1090/"
+  },
+  {
+    "championId": "Gwen",
+    "augments": ["Marksmage", "Ethereal Weapon", "Giant Slayer", "Mystic Punch"],
+    "url": "https://arammayhem.com/combo/gwen-marksmage-1091/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["ADAPt", "Mind to Matter", "Tank Engine", "Eureka"],
+    "url": "https://arammayhem.com/combo/ryze-adapt-1093/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Quest: Wooglet's Witchcap", "Mind to Matter", "ADAPt", "Tank Engine"],
+    "url": "https://arammayhem.com/combo/ryze-quest-wooglets-witchcap-1094/"
+  },
+  {
+    "championId": "Ziggs",
+    "augments": ["Cheating", "ADAPt", "Slap Around", "Shrink Engine"],
+    "url": "https://arammayhem.com/combo/ziggs-cheating-1095/"
+  },
+  {
+    "championId": "Yorick",
+    "augments": ["Executioner", "Droppybara", "Recursion", "Heavy Hitter"],
+    "url": "https://arammayhem.com/combo/yorick-executioner-1096/"
+  },
+  {
+    "championId": "Lillia",
+    "augments": ["Void Rift", "Flash 2"],
+    "url": "https://arammayhem.com/combo/lillia-void-rift-1097/"
+  },
+  {
+    "championId": "Rell",
+    "augments": [
+      "Courage of the Colossus",
+      "Weighted Popoffs",
+      "Quest: Steel Your Heart",
+      "Guilty Pleasure"
+    ],
+    "url": "https://arammayhem.com/combo/rell-courage-of-the-colossus-1098/"
+  },
+  {
+    "championId": "Rammus",
+    "augments": ["Grandma's Chili Oil", "Upgrade Thornmail"],
+    "url": "https://arammayhem.com/combo/rammus-grandmas-chili-oil-1099/"
+  },
+  {
+    "championId": "Ezreal",
+    "augments": ["Draw Your Sword", "Dual Wield", "Tap Dancer", "Giant Slayer"],
+    "url": "https://arammayhem.com/combo/ezreal-draw-your-sword-1100/"
+  },
+  {
+    "championId": "Gragas",
+    "augments": ["Grandma's Chili Oil", "Firebrand", "Ice Cold", "Tormentor"],
+    "url": "https://arammayhem.com/combo/gragas-grandmas-chili-oil-1101/"
+  },
+  {
+    "championId": "Talon",
+    "augments": ["Transmute: Chaos", "From Beginning To End", "Shadow Runner"],
+    "url": "https://arammayhem.com/combo/talon-transmute-chaos-1102/"
+  },
+  {
+    "championId": "Udyr",
+    "augments": ["Clown College", "From Beginning To End", "Ethereal Weapon", "Giant Slayer"],
+    "url": "https://arammayhem.com/combo/udyr-clown-college-1103/"
+  },
+  {
+    "championId": "Fiddlesticks",
+    "augments": ["Quest: Wooglet's Witchcap", "Giant Slayer", "Overflow", "Phenomenal Evil"],
+    "url": "https://arammayhem.com/combo/fiddlesticks-quest-wooglets-witchcap-1104/"
+  },
+  {
+    "championId": "Caitlyn",
+    "augments": ["Fan The Hammer", "Dual Wield", "Light 'em Up!"],
+    "url": "https://arammayhem.com/combo/caitlyn-fan-the-hammer-1105/"
+  },
+  {
+    "championId": "Trundle",
+    "augments": ["Cruelty", "Infinite Recursion", "Juiced", "Buff Buddies"],
+    "url": "https://arammayhem.com/combo/trundle-cruelty-1106/"
+  },
+  {
+    "championId": "Amumu",
+    "augments": ["Phenomenal Evil", "Tank Engine", "Quest: Steel Your Heart", "Master of Duality"],
+    "url": "https://arammayhem.com/combo/amumu-phenomenal-evil-1107/"
+  },
+  {
+    "championId": "Draven",
+    "augments": ["Jeweled Gauntlet", "Clown College", "Draw Your Sword", "Devil on Your Shoulder"],
+    "url": "https://arammayhem.com/combo/draven-jeweled-gauntlet-1108/"
+  },
+  {
+    "championId": "Tryndamere",
+    "augments": ["Dual Wield", "Clown College", "Ultimate Awakening", "Infinite Recursion"],
+    "url": "https://arammayhem.com/combo/tryndamere-dual-wield-1109/"
+  },
+  {
+    "championId": "MasterYi",
+    "augments": ["Dual Wield", "Symphony of War", "Final Form", "Devil on Your Shoulder"],
+    "url": "https://arammayhem.com/combo/masteryi-dual-wield-1110/"
+  },
+  {
+    "championId": "Katarina",
+    "augments": ["Void Rift", "Phenomenal Evil", "Shrink Engine", "Double Tap"],
+    "url": "https://arammayhem.com/combo/katarina-void-rift-1111/"
+  },
+  {
+    "championId": "Amumu",
+    "augments": ["Goliath", "Transmute: Prismatic", "Stats!"],
+    "url": "https://arammayhem.com/combo/amumu-goliath-1112/"
+  },
+  {
+    "championId": "Pantheon",
+    "augments": ["Vulnerability", "Executioner", "Vampirism", "Back To Basics"],
+    "url": "https://arammayhem.com/combo/pantheon-vulnerability-1113/"
+  },
+  {
+    "championId": "Caitlyn",
+    "augments": ["Jeweled Gauntlet", "Glass Cannon", "Upgrade Infinity Edge", "Giant Slayer"],
+    "url": "https://arammayhem.com/combo/caitlyn-jeweled-gauntlet-1115/"
+  },
+  {
+    "championId": "Aphelios",
+    "augments": ["Draw Your Sword"],
+    "url": "https://arammayhem.com/combo/aphelios-draw-your-sword-1116/"
+  },
+  {
+    "championId": "Azir",
+    "augments": ["ADAPt", "Phenomenal Evil", "Master of Duality", "Giant Slayer"],
+    "url": "https://arammayhem.com/combo/azir-adapt-1117/"
+  },
+  {
+    "championId": "Sett",
+    "augments": ["Jeweled Gauntlet", "Scopiest Weapons", "Scopier Weapons", "Lightning Strikes"],
+    "url": "https://arammayhem.com/combo/sett-jeweled-gauntlet-1118/"
+  },
+  {
+    "championId": "Trundle",
+    "augments": ["Scopiest Weapons", "Draw Your Sword", "Scopier Weapons", "Deft"],
+    "url": "https://arammayhem.com/combo/trundle-scopiest-weapons-1119/"
+  },
+  {
+    "championId": "Trundle",
+    "augments": ["Scopier Weapons", "Deft", "Scopiest Weapons", "Don't Blink"],
+    "url": "https://arammayhem.com/combo/trundle-scopier-weapons-1120/"
+  },
+  {
+    "championId": "Trundle",
+    "augments": ["Purist - Caster", "Infinite Recursion", "Slap Around", "Shrink Engine"],
+    "url": "https://arammayhem.com/combo/trundle-purist-caster-1121/"
+  },
+  {
+    "championId": "Garen",
+    "augments": ["Slow And Steady", "Protein Shake", "First-Aid Kit", "Spin To Win"],
+    "url": "https://arammayhem.com/combo/garen-slow-and-steady-1122/"
+  },
+  {
+    "championId": "Katarina",
+    "augments": ["Slow And Steady", "Void Rift"],
+    "url": "https://arammayhem.com/combo/katarina-slow-and-steady-1123/"
+  },
+  {
+    "championId": "Mordekaiser",
+    "augments": ["Grandma's Chili Oil", "Critical Healing", "Protein Shake", "Circle of Death"],
+    "url": "https://arammayhem.com/combo/mordekaiser-grandmas-chili-oil-1124/"
+  },
+  {
+    "championId": "Kaisa",
+    "augments": ["Critical Healing", "Critical Missile"],
+    "url": "https://arammayhem.com/combo/kaisa-critical-healing-1125/"
+  },
+  {
+    "championId": "Hecarim",
+    "augments": ["Jeweled Gauntlet", "Upgrade Infinity Edge", "Bread and Cheese", "Vampirism"],
+    "url": "https://arammayhem.com/combo/hecarim-jeweled-gauntlet-1126/"
+  },
+  {
+    "championId": "Soraka",
+    "augments": ["Empowered By The Faithful", "Protein Shake"],
+    "url": "https://arammayhem.com/combo/soraka-empowered-by-the-faithful-1127/"
+  },
+  {
+    "championId": "Shyvana",
+    "augments": ["Ethereal Weapon"],
+    "url": "https://arammayhem.com/combo/shyvana-ethereal-weapon-1128/"
+  },
+  {
+    "championId": "Corki",
+    "augments": ["Critical Missile", "Vulnerability", "Twin Fire", "Fan The Hammer"],
+    "url": "https://arammayhem.com/combo/corki-critical-missile-1130/"
+  },
+  {
+    "championId": "Rammus",
+    "augments": ["Gash", "Ethereal Weapon", "Quest: Steel Your Heart", "Soul Eater"],
+    "url": "https://arammayhem.com/combo/rammus-gash-1131/"
+  },
+  {
+    "championId": "Sett",
+    "augments": ["Dropkick", "Tank Engine", "Soul Eater", "Heavy Hitter"],
+    "url": "https://arammayhem.com/combo/sett-dropkick-1132/"
+  },
+  {
+    "championId": "Swain",
+    "augments": ["Dropkick", "Tank Engine", "Soul Eater", "Quest: Steel Your Heart"],
+    "url": "https://arammayhem.com/combo/swain-dropkick-1135/"
+  },
+  {
+    "championId": "Urgot",
+    "augments": ["Tap Dancer", "Master of Duality", "Slow And Steady", "escAPADe"],
+    "url": "https://arammayhem.com/combo/urgot-tap-dancer-1136/"
+  },
+  {
+    "championId": "Ryze",
+    "augments": ["Tank Engine", "Mind to Matter", "ADAPt", "Magic Missile"],
+    "url": "https://arammayhem.com/combo/ryze-tank-engine-1139/"
+  },
+  {
+    "championId": "Yasuo",
+    "augments": ["Mystic Punch", "Back To Basics", "Slow And Steady", "Upgrade Infinity Edge"],
+    "url": "https://arammayhem.com/combo/yasuo-mystic-punch-1141/"
+  },
+  {
+    "championId": "Kayn",
+    "augments": ["Jeweled Gauntlet", "Shadow Runner", "Bread And Butter", "Vampirism"],
+    "url": "https://arammayhem.com/combo/kayn-jeweled-gauntlet-1143/"
+  },
+  {
+    "championId": "Jax",
+    "augments": ["Gash", "Upgrade Sheen", "Shadow Runner", "Twice Thrice"],
+    "url": "https://arammayhem.com/combo/jax-gash/"
+  },
+  {
+    "championId": "Yasuo",
+    "augments": ["Critical Healing", "Vampirism", "Upgrade Infinity Edge", "Slow And Steady"],
+    "url": "https://arammayhem.com/combo/yasuo-critical-healing-1145/"
+  },
+  {
+    "championId": "Hecarim",
+    "augments": ["Devil on Your Shoulder", "Executioner", "Rabble Rousing", "Bread And Butter"],
+    "url": "https://arammayhem.com/combo/hecarim-devil-on-your-shoulder-1146/"
+  },
+  {
+    "championId": "Yasuo",
+    "augments": ["Shadow Runner", "Outlaw's Grit", "Swift and Safe"],
+    "url": "https://arammayhem.com/combo/yasuo-shadow-runner-1147/"
+  },
+  {
+    "championId": "MasterYi",
+    "augments": ["Executioner", "Twice Thrice", "Upgrade Collector", "Cerberus"],
+    "url": "https://arammayhem.com/combo/masteryi-executioner/"
+  },
+  {
+    "championId": "Tryndamere",
+    "augments": [
+      "Ultimate Revolution",
+      "Scopier Weapons",
+      "Upgrade Infinity Edge",
+      "Tank It Or Leave It"
+    ],
+    "url": "https://arammayhem.com/combo/tryndamere-ultimate-revolution-1149/"
+  }
+]

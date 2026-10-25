@@ -27,6 +27,7 @@ import {
   recommend,
   sanitizeSession,
   tagLabel,
+  catalogManifest,
 } from '../../../packages/engine';
 import type { Session } from '../../../packages/engine/types';
 import metadata from '../../../content/metadata.json';
@@ -45,7 +46,17 @@ export default function App() {
   const [role, setRole] = useState('全部');
   const [augmentSearch, setAugmentSearch] = useState('');
   const [tier, setTier] = useState('全部');
-  const [notice, setNotice] = useState('');
+  const [notice, setNotice] = useState(() => {
+    try {
+      const raw = JSON.parse(localStorage.getItem(STORAGE) ?? 'null');
+      return Array.isArray(raw?.selected) &&
+        raw.selected.some((id: unknown) => !augments.some((a) => a.id === id))
+        ? '版本更新：旧记录中已移除或未收录的强化已清理，请核对本局实际选择。'
+        : '';
+    } catch {
+      return '';
+    }
+  });
   const [resetting, setResetting] = useState(false);
   const [itemPicker, setItemPicker] = useState('');
   const champion = champions.find((c) => c.id === state.championId)!;
@@ -66,12 +77,14 @@ export default function App() {
   const filtered = champions.filter(
     (c) =>
       (role === '全部' || c.role === role) &&
-      `${c.name}${c.title}${c.id}`.toLowerCase().includes(search.toLowerCase()),
+      `${c.name}${c.title}${c.id}${c.keywords ?? ''}`.toLowerCase().includes(search.toLowerCase()),
   );
   const filteredAugments = augments.filter(
     (a) =>
       (tier === '全部' || a.tier === tier) &&
-      `${a.name}${a.english}${a.description}`.toLowerCase().includes(augmentSearch.toLowerCase()),
+      `${a.name}${a.english}${a.description}${a.aliases?.join('') ?? ''}`
+        .toLowerCase()
+        .includes(augmentSearch.toLowerCase()),
   );
   function changeChampion(id: string) {
     setState((s) => ({ ...freshSession(), championId: id, preference: s.preference }));
@@ -94,11 +107,11 @@ export default function App() {
   function exportPlan() {
     const text = [
       `海克斯工坊 · ${champion.name}`,
-      `知识库：${metadata.contentVersion}（当前国服版本未验证）`,
+      `知识库：${metadata.contentVersion}（国服静态资料 ${catalogManifest.patch}；实战未验证）`,
       `流派：${result.active.build.name}`,
       `已选：${state.selected.map((id) => augments.find((a) => a.id === id)?.name).join('、') || '无'}`,
       `出装：${result.items.join(' → ')}`,
-      `加点：主 ${result.active.build.priority[0]} 副 ${result.active.build.priority[1]}，有 R 点 R`,
+      `加点：${result.active.build.skillMode === 'manual' ? result.active.build.skillNote : `主 ${result.active.build.priority[0]} 副 ${result.active.build.priority[1]}；${result.active.build.skillNote ?? '有 R 点 R'}`}`,
       `1–18 级：${result.skills.join(' / ')}`,
       '',
       result.active.build.plan,
@@ -151,7 +164,7 @@ export default function App() {
         <div className="sidebar-bottom">
           <span className="windows-icon">⊞</span>
           <div>
-            Windows 桌面版<small>v0.1.0 · 社区种子版</small>
+            Windows 桌面版<small>v0.2.0-beta.1 · 数据扩展版</small>
           </div>
         </div>
       </aside>
@@ -193,8 +206,9 @@ export default function App() {
           <div className="version-banner">
             <Info size={15} />
             <span>
-              当前为种子知识库：12 位英雄 / 16
-              个强化。国服当前版本尚未实战验证，中文译名与效果请以游戏内为准。
+              国服静态资料 {catalogManifest.patch}：{champions.length} 位英雄 / {augments.length}{' '}
+              个可命名强化。客户端文本 {catalogManifest.descriptions}{' '}
+              个，其余已补充机制摘要；配置池不等于当局可刷名单，推荐仍待实战验证。
             </span>
             <button onClick={() => setTab('library')}>
               查看说明 <ArrowUpRight size={13} />
@@ -210,7 +224,8 @@ export default function App() {
                 </div>
                 <p>
                   内容版本 {metadata.contentVersion} · 整理日期 {metadata.updatedAt}
-                  。本版推荐来自人工种子规则，不代表统计胜率或当前版本强度排名。
+                  。官方国服资料与 Data Dragon 已核对到 {catalogManifest.patch}
+                  ；推荐来自原创编辑规则，不代表国服统计胜率或逐英雄实测结论。
                 </p>
                 <div className="library-grid">
                   <div>
@@ -218,14 +233,15 @@ export default function App() {
                     <p>
                       {champions.length} 位英雄 /{' '}
                       {champions.reduce((n, c) => n + c.builds.length, 0)}{' '}
-                      套路线；支持成型条件、装备顺序与逐级技能规划。
+                      套编辑路线；特殊加点英雄单独处理，每位英雄都有独立打法提示。
                     </p>
                   </div>
                   <div>
                     <h3>海克斯机制</h3>
                     <p>
-                      {augments.length}{' '}
-                      个强化；按机制标签与触发条件匹配，未硬编码版本数值与出现概率。
+                      {augments.length} 个可命名强化，客户端文本 {catalogManifest.descriptions}{' '}
+                      个，其余从官方公告和人工核对补充摘要；已排除 5
+                      条系统事件技能记录。动态数值以游戏内为准。
                     </p>
                   </div>
                   <div>
@@ -237,10 +253,30 @@ export default function App() {
                   </div>
                 </div>
                 <p className="muted">
-                  基础资料参考 Riot 开发者文档、官方模式说明与 League of Legends Wiki 的 ARAM:
-                  Mayhem/Augments。来源地址保存在
-                  content/metadata.json；当前未接入游戏客户端、屏幕识别或自动操作。
+                  基础名称来自腾讯官方资料，强化配置与中文机制来自 CommunityDragon
+                  16.21。组合线索：Data: arammayhem.com（CC BY
+                  4.0），来源未确认比赛补丁与地区，不能当成当前国服强度依据。OP.GG
+                  保留站外攻略入口，未批量复制其数据。
                 </p>
+                <div className="reference-links">
+                  <a
+                    href="https://op.gg/zh-cn/lol/modes/aram-mayhem"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    OP.GG 海克斯专页 ↗
+                  </a>
+                  <a href="https://arammayhem.com/data/" target="_blank" rel="noreferrer">
+                    Data: arammayhem.com · CC BY 4.0 ↗
+                  </a>
+                  <a
+                    href="https://lolalytics.com/lol/tierlist/aram/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    LoLalytics 普通乱斗参考 ↗
+                  </a>
+                </div>
               </section>
               <section className="panel">
                 <div className="section-title">
@@ -269,6 +305,15 @@ export default function App() {
                         <strong>{a.name}</strong>
                         <small>{a.english}</small>
                         <p>{a.description}</p>
+                        <small>
+                          {a.status} ·{' '}
+                          {a.descriptionKey?.startsWith('patch:')
+                            ? '官方公告机制摘要'
+                            : a.descriptionKey?.startsWith('editorial:')
+                              ? '人工核对摘要'
+                              : '客户端文本摘要，动态数值以游戏内为准'}
+                        </small>
+                        {a.caution && <p className="warning">{a.caution}</p>}
                       </div>
                     </div>
                   ))}
@@ -295,7 +340,7 @@ export default function App() {
                     />
                   </div>
                   <div className="filters">
-                    {['全部', '法师', '射手', '坦克', '辅助', '战士'].map((r) => (
+                    {['全部', '法师', '射手', '坦克', '辅助', '战士', '刺客'].map((r) => (
                       <button
                         key={r}
                         className={role === r ? 'chosen' : ''}
@@ -516,6 +561,35 @@ export default function App() {
                     </span>
                   </div>
                 </section>
+                <section className="panel source-panel">
+                  <div className="section-title">
+                    <BookOpen size={18} />
+                    <h2>本英雄资料与依据</h2>
+                    <span className="badge amber">
+                      {result.active.build.evidence === 'editorial' ? '编辑路线' : '基础编辑建议'}
+                    </span>
+                  </div>
+                  <p className="helper">
+                    国服静态资料 {champion.patch} · 不使用 Worlds
+                    职业赛事数据估计海克斯表现。基础方向仍需结合当前强化、阵容和实际操作调整。
+                  </p>
+                  <div className="reference-links">
+                    <a
+                      href={`https://op.gg/zh-cn/lol/modes/aram-mayhem/${champion.id === 'MonkeyKing' ? 'wukong' : champion.id.toLowerCase()}/build`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      OP.GG 本英雄海克斯攻略 ↗
+                    </a>
+                    <a
+                      href={`https://lolalytics.com/lol/${champion.id.toLowerCase()}/aram/build/`}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      普通 ARAM 对照（不同模式）↗
+                    </a>
+                  </div>
+                </section>
                 <section className="panel candidate-panel">
                   <div className="section-title">
                     <span className="step">03</span>
@@ -560,6 +634,7 @@ export default function App() {
                           <h3>{o.augment.name}</h3>
                           <p className="augment-description">{o.augment.description}</p>
                           <p className="candidate-reason">{o.reason}</p>
+                          {o.augment.caution && <p className="warning">{o.augment.caution}</p>}
                           {o.changes && o.valid && (
                             <small className="transition">
                               {state.pinnedBuildId ? '解锁自动规划后可评估' : '选后倾向'}：
@@ -589,9 +664,24 @@ export default function App() {
                   </div>
                   <div className="next-item">
                     <span>下一件优先考虑</span>
-                    <strong>{result.nextItem ?? '路线已完成，按实际局势调整'}</strong>
-                    <small>按路线顺序推荐 · 未计算金币与合成小件</small>
+                    <strong>
+                      {result.nextItem ??
+                        (result.items.length
+                          ? '路线已完成，按实际局势调整'
+                          : '该英雄装备路线尚未核验')}
+                    </strong>
+                    <small>
+                      {result.nextItemInfo
+                        ? `总价 ${result.nextItemInfo.total} 金币 · 静态资料价`
+                        : '按路线顺序推荐'}
+                    </small>
                   </div>
+                  {result.components.length > 0 && (
+                    <p className="helper">
+                      合成组件：{result.components.join(' + ')}
+                      。这里只展示配方，购买顺序仍需结合当前金币；未假定组件已在背包中。
+                    </p>
+                  )}
                   <div className="item-route">
                     {result.items.map((item, i) => (
                       <button
@@ -693,18 +783,24 @@ export default function App() {
                     <ArrowUpRight size={18} />
                     <h2>技能加点</h2>
                     <span className="skill-priority">
-                      主 {result.active.build.priority[0]} · 副 {result.active.build.priority[1]} ·
-                      有 R 点 R
+                      {result.active.build.skillMode === 'manual'
+                        ? '特殊机制单独处理'
+                        : `主 ${result.active.build.priority[0]} · 副 ${result.active.build.priority[1]} · ${result.active.build.skillMode === 'jayce' ? 'R 自动升级' : '有 R 点 R'}`}
                     </span>
                   </div>
                   <div className="skill-next">
                     <strong>
-                      {state.level >= 18
-                        ? '已达 18 级'
-                        : `升到 ${state.level + 1} 级：点 ${result.skills[state.level]}`}
+                      {!result.skills.length
+                        ? '查看特殊加点说明'
+                        : state.level >= 18
+                          ? '已达 18 级'
+                          : `升到 ${state.level + 1} 级：点 ${result.skills[state.level]}`}
                     </strong>
                     <span>默认此前按本路线加点；转型后按实际已点技能调整。</span>
                   </div>
+                  {result.active.build.skillNote && (
+                    <p className="adaptation">{result.active.build.skillNote}</p>
+                  )}
                   <div className="skill-grid">
                     {result.skills.map((s, i) => (
                       <div
@@ -717,6 +813,26 @@ export default function App() {
                     ))}
                   </div>
                 </section>
+                {result.communityHints.length > 0 && (
+                  <section className="panel">
+                    <div className="section-title">
+                      <Sparkles size={18} />
+                      <h2>社区组合线索</h2>
+                      <span className="badge amber">非强度排名</span>
+                    </div>
+                    <p className="helper">
+                      Data: arammayhem.com · CC BY
+                      4.0。原始组合未核实当前国服补丁，不计入推荐分数；先核对机制再尝试。
+                    </p>
+                    <div className="community-hints">
+                      {result.communityHints.map((h) => (
+                        <a key={h.url} href={h.url} target="_blank" rel="noreferrer">
+                          {h.matched.map((a) => a.name).join(' + ')} ↗
+                        </a>
+                      ))}
+                    </div>
+                  </section>
+                )}
                 <section className="panel alternatives">
                   <div className="section-title">
                     <Swords size={18} />

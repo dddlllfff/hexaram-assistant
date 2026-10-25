@@ -59,19 +59,36 @@ test('threat adaptation keeps six unique items and avoids duplicate armor penetr
       assert.ok(!(r.items.includes('凡性的提醒') && r.items.includes('多米尼克领主的致意')));
     }
 });
-test('all build skill sequences obey level caps and ultimate unlocks', () => {
+test('skill sequences respect standard, six-rank, automatic-R and manual mechanics', () => {
   for (const c of champions)
     for (const b of c.builds) {
       const order = skillOrder(b);
+      if (b.skillMode === 'manual') {
+        assert.equal(order.length, 0);
+        assert.ok(b.skillNote);
+        continue;
+      }
       assert.equal(order.length, 18);
       const count = { Q: 0, W: 0, E: 0, R: 0 };
       order.forEach((skill, i) => {
         assert.ok(skill, b.id);
         count[skill]++;
-        if (skill === 'R') assert.ok([6, 11, 16].includes(i + 1));
-        else assert.ok(count[skill] <= 5 && count[skill] <= Math.ceil((i + 1) / 2), b.id);
+        if (skill === 'R') assert.ok(b.skillMode !== 'jayce' && [6, 11, 16].includes(i + 1));
+        else
+          assert.ok(
+            count[skill] <= (b.skillMode === 'jayce' ? 6 : (b.skillCaps?.[skill] ?? 5)) &&
+              count[skill] <= Math.ceil((i + 1) / 2),
+            b.id,
+          );
       });
-      assert.deepEqual(count, { Q: 5, W: 5, E: 5, R: 3 });
+      assert.deepEqual(
+        count,
+        b.skillMode === 'jayce'
+          ? { Q: 6, W: 6, E: 6, R: 0 }
+          : c.id === 'Yuumi'
+            ? { Q: 6, W: 4, E: 5, R: 3 }
+            : { Q: 5, W: 5, E: 5, R: 3 },
+      );
     }
 });
 test('persisted input is sanitized, deduplicated and clamped', () => {
@@ -90,11 +107,11 @@ test('persisted input is sanitized, deduplicated and clamped', () => {
   assert.deepEqual(s.ownedItems, ['死亡之舞']);
   assert.deepEqual(sanitizeSession(null), freshSession());
 });
-test('content IDs are unique and every hero supports at least two complete routes', () => {
+test('each hero has a complete baseline without invented alternative routes', () => {
   assert.equal(new Set(augments.map((a) => a.id)).size, augments.length);
   assert.equal(new Set(champions.map((c) => c.id)).size, champions.length);
   for (const c of champions) {
-    assert.ok(c.builds.length >= 2);
+    assert.ok(c.builds.length >= 1);
     for (const b of c.builds) {
       assert.equal(b.items.length, 6);
       assert.ok(b.condition && b.caution && b.plan);

@@ -27,6 +27,11 @@ export interface Build {
   plan: string;
   condition: string;
   caution: string;
+  requiredAugments?: string[];
+  skillMode?: 'standard' | 'jayce' | 'manual';
+  skillNote?: string;
+  skillCaps?: Partial<Record<Skill, number>>;
+  evidence?: 'editorial' | 'baseline';
 }
 export interface Champion {
   id: string;
@@ -37,6 +42,12 @@ export interface Champion {
   initials: string;
   tags: Tag[];
   builds: Build[];
+  keywords?: string;
+  resource?: string;
+  range?: number;
+  patch?: string;
+  source?: string;
+  allySupport?: boolean;
 }
 export interface Augment {
   id: string;
@@ -49,7 +60,17 @@ export interface Augment {
   excludes?: string[];
   risk: number;
   source: string;
-  status: '待实战验证';
+  status: '待实战验证' | '静态资料已核对' | '机制待补充';
+  gameId?: number;
+  key?: string;
+  aliases?: string[];
+  grants?: Tag[];
+  manaOnly?: boolean;
+  rangedOnly?: boolean;
+  conflictsWithTags?: Tag[];
+  descriptionKey?: string;
+  caution?: string;
+  allySupportOnly?: boolean;
 }
 export interface Session {
   championId: string;

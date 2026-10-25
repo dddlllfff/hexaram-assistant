@@ -42,7 +42,7 @@ test('max three candidates, choose actual result, threat and export', async ({ p
   await page.goto('/');
   for (const name of ['珠光护手', '炼狱导管', '捐赠'])
     await page.getByRole('button', { name: `添加候选${name}`, exact: true }).click();
-  await page.getByRole('button', { name: '添加候选无限递归', exact: true }).click();
+  await page.getByRole('button', { name: '添加候选无限循环往复', exact: true }).click();
   await expect(page.getByRole('status')).toContainText('候选区已满');
   await expect(page.locator('.candidate-card')).toHaveCount(3);
   await page
@@ -57,4 +57,21 @@ test('max three candidates, choose actual result, threat and export', async ({ p
   const download = page.waitForEvent('download');
   await page.getByRole('button', { name: '导出本局方案' }).click();
   expect((await download).suggestedFilename()).toBe('HexARAM-Brand.txt');
+});
+test('full roster supports Chinese aliases and special skill modes', async ({ page }) => {
+  await page.goto('/');
+  const search = page.getByRole('textbox', { name: '搜索英雄' });
+  await search.fill('杰斯');
+  await page.getByRole('button', { name: /杰斯/ }).click();
+  await expect(
+    page.getByText('杰斯 R 自动升级，Q/W/E 各可升 6 级；不手动点 R。', { exact: true }),
+  ).toBeVisible();
+  await expect(page.locator('.skill-grid strong').filter({ hasText: /^R$/ })).toHaveCount(0);
+  await search.fill('厄斐琉斯');
+  await page.getByRole('button', { name: /厄斐琉斯/ }).click();
+  await expect(page.getByText('查看特殊加点说明', { exact: true })).toBeVisible();
+  await expect(page.locator('.skill-grid strong')).toHaveCount(0);
+  await search.fill('luoke');
+  await page.getByRole('button', { name: /洛克/ }).click();
+  await expect(page.getByRole('heading', { name: '法术切入', exact: true })).toBeVisible();
 });

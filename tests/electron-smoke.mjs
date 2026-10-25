@@ -15,6 +15,7 @@ try {
   const page = await app.firstWindow();
   await page.waitForSelector('h1');
   assert.ok((await page.title()).includes('HexARAM'));
+  await page.getByRole('heading', { name: '本英雄资料与依据', exact: true }).waitFor();
   await page.getByRole('button', { name: '添加候选珠光护手', exact: true }).click();
   await page.getByRole('button', { name: '我选这个', exact: true }).click();
   await page.getByRole('heading', { name: '技能暴击', exact: true }).waitFor();

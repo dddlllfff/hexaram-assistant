@@ -1,14 +1,14 @@
 # 内容与实测规范
 
-当前种子库未声称适用于某个已验证的国服补丁；`verifiedGamePatch` 为 null。不要仅凭网页更新日期把它改为已验证。
+当前静态资料对齐国服 16.21，但 `verifiedGamePatch` 仍为 null，表示尚未逐英雄实战验证。网站调研、来源许可与适配边界见 `SOURCE_RESEARCH.md`。不要仅凭网页更新日期把数据改成已实测。
 
 ## 英雄
 
-在 `content/champions/index.ts` 添加 `Champion`：唯一 ID、中文名、定位、原生机制标签与至少两条 `Build`。每条路线需要完整装备、出门装、条件备选、技能主副优先级、前三点、打法、成型条件和注意事项。优先给出不依赖稀有强化的基础路线。`base` 是人工设定的保底倾向，不是统计强度。
+官方目录由 `scripts/sync-catalog.mjs` 生成到 `content/catalog/champions.json`。在 `content/champions/profiles.ts` 为每位英雄维护基础方向、独立技能优先级、可选替代方向与打法，`archetypes.ts` 提供结构模板，`catalog.ts` 保存英雄专属装备与特殊机制。每位至少一条有效基础方向；只在确有机制条件时增加备选，不为凑数量编造流派。`base` 是人工设定的保底倾向，不是统计强度。
 
 ## 强化
 
-在 `content/augments/index.ts` 添加唯一 ID、中英文名、稀有度、机制简述、标签、来源及验证状态。`requires` 当前是 any-of（例如治疗或护盾任一满足即可），不是全部都要满足。多重同时条件需要扩展类型及对应引擎后再录入。`excludes` 表示与已有强化冲突。
+强化原始目录由固定版本的 KIWI 配置池生成。编辑规则在 `content/augments/catalog.ts`，公告摘要在 `patch-overrides.ts`。`requires` 是 any-of；`grants` 仅包含实际新增机制，不能把收益标签当作前提能力；`allySupportOnly` 区分对友军的保护与自身回复。`excludes` 和 `conflictsWithTags` 表示已选强化之间的冲突。系统事件技能记录保存在原始目录但不作为普通候选导出。
 
 不确定的数值不应写入；暂译与最终游戏内名称可能不同。原始知识仅摘要机制，避免整段复制第三方攻略。
 
