@@ -1,0 +1,16 @@
+name: 攻略与机制补充
+description: 提交英雄流派、强化交互或版本更正
+body:
+  - type: input
+    id: target
+    attributes:
+      label: 英雄 / 强化 / 装备
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 建议、资料来源与实测依据
+      description: 请注明服务器、补丁、日期和未确认的部分。
+    validations:
+      required: true

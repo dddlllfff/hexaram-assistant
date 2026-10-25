@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "0.1.0-seed",
+  "updatedAt": "2026-10-25",
+  "region": "zh-CN",
+  "verifiedGamePatch": null,
+  "status": "机制种子库，未完成国服当前版本实战验证",
+  "sources": [
+    "https://developer.riotgames.com/docs/lol",
+    "https://support.riotgames.com/en-us/league-of-legends/events/league-of-legends-aram-mayhem-game-mode",
+    "https://wiki.leagueoflegends.com/en-us/ARAM%3A_Mayhem/Augments"
+  ]
+}
