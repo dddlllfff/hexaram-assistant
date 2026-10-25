@@ -1,6 +1,7 @@
 packages:
   - '.'
 allowBuilds:
+  tesseract.js: false
   electron: true
   esbuild: true
   electron-winstaller: false

@@ -7,3 +7,7 @@ playwright-report/
 .env*
 !.env.example
 .DS_Store
+resources/recognition/models/*.gz
+resources/recognition/icons/
+resources/recognition/icons.json
+resources/recognition/*.txt

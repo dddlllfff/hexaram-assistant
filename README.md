@@ -1,14 +1,16 @@
 # 海克斯工坊 · HexARAM Assistant
 
-一个面向 **Windows 10/11 x64** 的海克斯大乱斗开源玩法助手。手动选择英雄、记录已选海克斯、比较本轮候选，获得联动的流派、装备与加点方案。所有推荐在本地完成，无需账号、AI 服务或 API Key。
+一个面向 **Windows 10/11 x64** 的海克斯大乱斗开源玩法助手。自动读取英雄、识别候选与已选海克斯，获得联动的流派、装备与加点方案，也可以随时手动纠正。识别与推荐在本地完成，无需账号、云端 AI 或 API Key。
 
-> v0.2.0-beta.1 数据扩展版：173 位英雄、244 个可命名强化、241 条原创编辑路线。国服静态资料已对齐 16.21，本机客户端文件版本核对为 16.21.829.9102；推荐仍待逐英雄实战验证，不能视为国服统计强度榜。详见 [网站调研与版本适配记录](docs/SOURCE_RESEARCH.md)。
+> v0.3.0-beta.1 自动识别测试版：选人接口、对局本机数据、离线中英文 OCR 和强化图标匹配。已选区域需要校准，识别结果连续两次稳定才写入；不确定时保留手动输入。173 位英雄、244 个可命名强化、241 条原创编辑路线仍对齐国服 16.21；推荐与识别均待更多实战验证。详见 [自动识别使用说明](docs/RECOGNITION.md) 和 [数据调研](docs/SOURCE_RESEARCH.md)。
 
 ## 玩家使用
 
-**[下载 Windows x64 数据扩展测试版](https://github.com/dddlllfff/hexaram-assistant/releases/download/v0.2.0-beta.1/HexARAM-Assistant-0.2.0-beta.1-Windows-x64-Setup.exe)** · [版本说明与 SHA-256 校验文件](https://github.com/dddlllfff/hexaram-assistant/releases/tag/v0.2.0-beta.1)
+**[下载 Windows x64 自动识别测试版](https://github.com/dddlllfff/hexaram-assistant/releases/download/v0.3.0-beta.1/HexARAM-Assistant-0.3.0-beta.1-Windows-x64-Setup.exe)** · [版本说明与 SHA-256 校验文件](https://github.com/dddlllfff/hexaram-assistant/releases/tag/v0.3.0-beta.1)
 
-下载 `HexARAM-Assistant-0.2.0-beta.1-Windows-x64-Setup.exe` 后运行安装向导，无需安装 Node.js。当前包没有 Windows 代码签名，系统可能展示发行者未知提示；请核对来源和随包 SHA256SUMS.txt。此版本标记为 Pre-release，欢迎通过 Issues 反馈。
+下载 `HexARAM-Assistant-0.3.0-beta.1-Windows-x64-Setup.exe` 后运行安装向导，无需安装 Node.js。当前包没有 Windows 代码签名，系统可能展示发行者未知提示；请核对来源和随包 SHA256SUMS.txt。此版本标记为 Pre-release，欢迎通过 Issues 反馈。
+
+想减少输入：在「自动识别」开启读取，进入海克斯大乱斗。选人英雄优先由客户端接口读取；游戏内第一次打开强化界面时，在「连接与区域设置 → 预览与校准」框选三个候选名称及已选强化图标行或文字区。后续识别自动更新推荐。手动改英雄、候选、等级或装备会锁定对应项；解除锁定后恢复读取。误读的已选强化移除后不会立即加回来。具体连接、校准和纠错步骤见 [说明](docs/RECOGNITION.md)。
 
 1. 选择英雄；切换英雄会清空此前的本局强化、候选与装备。
 2. 将游戏里的海克斯加入候选区（最多三个），查看各选项的推荐理由。
@@ -28,7 +30,7 @@ pnpm install --frozen-lockfile
 pnpm dev
 ```
 
-`pnpm dev` 同时启动界面开发服务器与 Electron 窗口。首次安装会下载 Windows Electron 运行时，需要网络。开发目录路径可包含中文或空格。
+`pnpm dev` 同时启动界面开发服务器与 Electron 窗口。首次安装会下载 Electron、OCR 模型依赖及固定 16.21 图标模板，需要网络；安装包已包含这些资源，玩家使用时无需下载。开发目录路径可包含中文或空格。
 
 ```powershell
 pnpm check       # 类型检查和推荐规则测试
@@ -45,15 +47,17 @@ pnpm exec playwright install chromium
 pnpm test:e2e
 pnpm build
 node tests/electron-smoke.mjs
+node tests/recognition-desktop.mjs
 ```
 
-最后一条在真实 Electron 中验证离线加载、交互与渲染隔离。手动预览也可运行 `pnpm dev:web`。浏览器预览是开发便利功能，发布目标为 Windows 桌面程序。
+桌面测试验证离线加载、渲染隔离，并用合成窗口验证真实 Windows 捕获、本地 OCR、图标匹配及手动纠错；不启动游戏。手动预览也可运行 `pnpm dev:web`。浏览器预览保留手动功能，发布目标为 Windows 桌面程序。
 
 ## 仓库结构
 
 ```text
 apps/desktop/             React 界面与 Electron 主进程
 packages/engine/          可独立测试的推荐引擎、输入校验、技能序列
+packages/recognition/     识别匹配、连续稳定规则与手动纠错协调
 content/champions/        英雄、流派、出装、技能与成型条件
 content/augments/         海克斯机制、适配标签、前提与资料来源
 content/metadata.json     知识包版本、来源与验证状态
@@ -73,12 +77,12 @@ tests/                   规则、端到端及 Windows Electron 测试
 
 - 英雄目录全量 173 位，每位至少一个编辑基线。241 条路线有基础建议与精编内容之分，没有逐条国服实战验证。
 - 249 条客户端配置记录中排除 5 条系统事件技能记录，展示 244 个可命名强化；210 个机制文本来自客户端，其余使用公告和人工核对摘要。配置池不等于每位英雄当局可刷池。
-- 未接入 LCU、Live Client Data、OCR、悬浮侧栏或自动更新。
+- 已接入只读 LCU / Live Client Data 与本地 OCR；国服接口可能因客户端或权限不可用，需使用区域识别和手动回退。未实现游戏内悬浮侧栏或应用自动更新。
 - 没有读取进程内存、注入、自动选取、自动购买或自动加点。
-- 英雄与装备采用原创文字占位设计，未随包分发游戏图标。
+- 英雄与装备采用原创文字占位设计；随包包含 244 个强化图标识别模板和中英文模型，来源与许可见第三方说明。
 - 种子数据与实际国服版本可能存在差异；发布稳定攻略前必须逐项验证。
 
-后续优先事项：逐英雄实测 → 完善交互与可刷条件 → 接入获得授权的模式统计 → 增加可纠正的自动获取。
+后续优先事项：国服实战识别校准 → 逐英雄实测 → 完善可刷条件 → 接入获得授权的模式统计。
 
 目录可通过 `pnpm data:sync` 从固定 16.21 来源重建，导入时校验版本与许可，记录来源哈希。OP.GG 提供站外核对入口，不批量搬运其数据。社区组合线索来自 **[Data: arammayhem.com](https://arammayhem.com/data/)**，遵循 CC BY 4.0；其比赛补丁和地区未确认，不纳入推荐评分。
 

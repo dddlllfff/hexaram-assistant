@@ -1451,3 +1451,143 @@ footer {
 .library-entry small {
   overflow-wrap: anywhere;
 }
+.recognition-buttons {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin: 12px 0;
+}
+.recognition-status {
+  font-size: 11px;
+  color: #b6d3ca;
+  background: #18302e;
+  border: 1px solid #34594e;
+  border-radius: 5px;
+  padding: 10px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.recognition-locks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+.recognition-locks button {
+  font-size: 9px;
+  border: 1px solid #6a5832;
+  background: #342b1c;
+  color: #d0ba87;
+  border-radius: 4px;
+  padding: 4px 6px;
+}
+.recognition-options {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin-top: 12px;
+}
+.recognition-options label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  font-size: 10px;
+  color: #a1b5c8;
+}
+.recognition-options label.checkbox {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: flex-start;
+  font-size: 10px;
+}
+.recognition-options input[type='checkbox'] {
+  accent-color: #76d8bd;
+  margin-top: 3px;
+}
+.recognition-options select {
+  width: 100%;
+  max-width: 100%;
+  font-size: 10px;
+}
+.recognition-panel summary {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.calibration-modal {
+  width: min(1100px, 94vw);
+  max-height: 94vh;
+  overflow: auto;
+  background: #131f2e;
+  border: 1px solid #476255;
+  border-radius: 10px;
+  padding: 22px;
+}
+.calibration-modal > .section-title {
+  justify-content: space-between;
+}
+.calibration-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 14px 0;
+}
+.calibration-toolbar label {
+  font-size: 11px;
+  color: #8babb3;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.calibration-scroll {
+  max-height: 65vh;
+  overflow: auto;
+  border: 1px solid #314c50;
+}
+.calibration-image {
+  position: relative;
+  line-height: 0;
+  touch-action: none;
+  user-select: none;
+}
+.calibration-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  user-select: none;
+}
+.region-draw {
+  position: absolute;
+  inset: 0;
+  cursor: crosshair;
+  touch-action: none;
+}
+.calibration-rect {
+  position: absolute;
+  border: 2px solid #f3cb72;
+  background: #f3cb7218;
+  pointer-events: none;
+  line-height: 1.3;
+}
+.calibration-rect.active {
+  border-color: #70e4cc;
+  background: #70e4cc22;
+}
+.calibration-rect span {
+  font-size: 11px;
+  color: #fff;
+  background: #0b171be0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  white-space: nowrap;
+  padding: 2px 4px;
+}
+.calibration-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 15px;
+}

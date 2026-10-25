@@ -25,4 +25,6 @@ pnpm dev
 
 本地使用 `pnpm dist:win`。输出在 `release/`。打包依赖 Electron 与 NSIS 下载；安装包未签名，正式面向更多玩家分发时应配置 Windows 代码签名并验证干净 Windows 用户环境下的安装/卸载流程。
 
-发布前核对知识库适配状态，确认补丁号、来源许可、目标地区第三方工具要求和必要的产品登记；更新 CHANGELOG。当前代码没有账号体系、自动更新、遥测或游戏接入。
+发布前核对知识库适配状态，确认补丁号、来源许可、目标地区第三方工具要求和必要的产品登记；更新 CHANGELOG。当前没有账号体系、应用自动更新或遥测。v0.3 加入本机只读游戏接口和离线窗口识别，应额外在打包后的程序运行 `tests/recognition-desktop.mjs`，检查模型、worker 和图标随包完整。
+
+`dist:win` / `pack:win` 明确传递 `--publish never`，避免 electron-builder 在带版本标签的 CI 中隐式上传并因缺少 GH_TOKEN 报错。发布 Release 是独立步骤，Git 本地凭据成功不等于 CI 自动拥有发布令牌。

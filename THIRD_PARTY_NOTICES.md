@@ -6,6 +6,12 @@
 
 项目没有打包第三方网站页面、游戏音频、皮肤图或付费素材。客户端机制文本已去除标记与动态数值变量，部分强化采用简短原创摘要；来源保存在导入清单和对应条目中。
 
+v0.3 自动识别随包包含 244 个强化小图标模板，来自 [CommunityDragon 16.21 游戏静态资源](https://raw.communitydragon.org/16.21/plugins/rcp-be-lol-game-data/global/default/)。构建生成的 `resources/recognition/icons.json` 记录每个原始地址与 SHA-256。它们用于识别，不属于 MIT 代码授权范围；游戏资产仍属于 Riot Games 及相关权利人。
+
+## 离线 OCR
+
+[Tesseract.js](https://github.com/naptha/tesseract.js)、[Tesseract.js-core](https://github.com/naptha/tesseract.js-core) 与 [Tesseract 语言模型](https://github.com/naptha/tessdata) 使用 Apache-2.0 许可证。中英文模型由 `@tesseract.js-data/chi_sim`、`@tesseract.js-data/eng` 包提供；模型与运行库随安装包分发，无需调用云服务。原始包中的 LICENSE / NOTICE 随依赖保留，另在识别资源目录提供许可证副本。
+
 ## 社区组合关联数据
 
 **[Data: arammayhem.com](https://arammayhem.com/data/)** — [Creative Commons Attribution 4.0](https://creativecommons.org/licenses/by/4.0/)。

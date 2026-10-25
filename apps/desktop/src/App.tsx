@@ -31,6 +31,8 @@ import {
 } from '../../../packages/engine';
 import type { Session } from '../../../packages/engine/types';
 import metadata from '../../../content/metadata.json';
+import { useRecognition } from './recognition';
+import RecognitionPanel from './RecognitionPanel';
 const STORAGE = 'hexaram.session.v1';
 function load() {
   try {
@@ -59,9 +61,14 @@ export default function App() {
   });
   const [resetting, setResetting] = useState(false);
   const [itemPicker, setItemPicker] = useState('');
+  const auto = useRecognition(state, setState, setNotice);
   const champion = champions.find((c) => c.id === state.championId)!;
   const result = useMemo(() => recommend(state), [state]);
-  const patch = (value: Partial<Session>) => setState((s) => sanitizeSession({ ...s, ...value }));
+  const patch = (value: Partial<Session>) => {
+    if (Object.hasOwn(value, 'level')) auto.manual('level');
+    if (Object.hasOwn(value, 'ownedItems')) auto.manual('inventory');
+    setState((s) => sanitizeSession({ ...s, ...value }));
+  };
   useEffect(() => {
     try {
       localStorage.setItem(STORAGE, JSON.stringify(state));
@@ -87,10 +94,12 @@ export default function App() {
         .includes(augmentSearch.toLowerCase()),
   );
   function changeChampion(id: string) {
+    auto.manual('hero');
     setState((s) => ({ ...freshSession(), championId: id, preference: s.preference }));
     setNotice('已切换英雄，清空上一位英雄的强化与装备。');
   }
   function candidate(id: string) {
+    auto.manual('candidates');
     if (state.candidates.includes(id))
       patch({ candidates: state.candidates.filter((x) => x !== id) });
     else if (state.candidates.length < 3) patch({ candidates: [...state.candidates, id] });
@@ -101,6 +110,7 @@ export default function App() {
       setNotice('当前种子版最多记录 8 个强化。');
       return;
     }
+    auto.release('selected', id);
     patch({ selected: [...state.selected, id], candidates: [] });
     setNotice('已记录实际选择，本局流派、出装与加点已同步更新。');
   }
@@ -164,7 +174,7 @@ export default function App() {
         <div className="sidebar-bottom">
           <span className="windows-icon">⊞</span>
           <div>
-            Windows 桌面版<small>v0.2.0-beta.1 · 数据扩展版</small>
+            Windows 桌面版<small>v0.3.0-beta.1 · 自动识别测试版</small>
           </div>
         </div>
       </aside>
@@ -324,6 +334,7 @@ export default function App() {
           ) : (
             <div className="workspace">
               <div className="input-column">
+                <RecognitionPanel auto={auto} />
                 <section className="panel champion-panel">
                   <div className="section-title">
                     <span className="step">01</span>
@@ -395,9 +406,10 @@ export default function App() {
                             <span>{a.name}</span>
                             <button
                               aria-label={`移除已选${a.name}`}
-                              onClick={() =>
-                                patch({ selected: state.selected.filter((x) => x !== id) })
-                              }
+                              onClick={() => {
+                                auto.blockSelected(id);
+                                patch({ selected: state.selected.filter((x) => x !== id) });
+                              }}
                             >
                               <X size={13} />
                             </button>
@@ -596,7 +608,13 @@ export default function App() {
                     <h2>这轮怎么选？</h2>
                     <span className="count">{state.candidates.length} / 3</span>
                     {state.candidates.length > 0 && (
-                      <button className="text-button" onClick={() => patch({ candidates: [] })}>
+                      <button
+                        className="text-button"
+                        onClick={() => {
+                          auto.manual('candidates');
+                          patch({ candidates: [] });
+                        }}
+                      >
                         清空候选
                       </button>
                     )}
@@ -907,6 +925,7 @@ export default function App() {
               <button
                 className="primary"
                 onClick={() => {
+                  auto.reset();
                   setState((s) => ({
                     ...freshSession(),
                     championId: s.championId,

@@ -1,6 +1,6 @@
 {
   "name": "hexaram-assistant",
-  "version": "0.2.0-beta.1",
+  "version": "0.3.0-beta.1",
   "private": true,
   "description": "Windows 海克斯大乱斗开源随局助手",
   "author": "HexARAM contributors",
@@ -12,27 +12,32 @@
     "node": ">=24"
   },
   "scripts": {
-    "postinstall": "node node_modules/electron/install.js",
+    "postinstall": "node node_modules/electron/install.js && node scripts/prepare-recognition.mjs",
     "dev": "node scripts/dev.mjs",
     "dev:web": "vite --host 127.0.0.1",
     "build": "tsc --noEmit && vite build",
     "check": "tsc --noEmit && tsx --test tests/*.test.ts",
     "test:e2e": "playwright test",
     "test:desktop": "node tests/electron-smoke.mjs",
+    "test:recognition": "node tests/recognition-desktop.mjs",
     "start": "electron .",
     "dist:win": "pnpm build && electron-builder --win nsis --x64 --publish never",
     "pack:win": "pnpm build && electron-builder --win --x64 --dir --publish never",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "data:sync": "node scripts/sync-catalog.mjs"
+    "data:sync": "node scripts/sync-catalog.mjs",
+    "recognition:prepare": "node scripts/prepare-recognition.mjs"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",
     "react": "19.3.1",
-    "react-dom": "19.3.1"
+    "react-dom": "19.3.1",
+    "tesseract.js": "6.0.1"
   },
   "devDependencies": {
     "@playwright/test": "^1.56.0",
+    "@tesseract.js-data/chi_sim": "^1.0.0",
+    "@tesseract.js-data/eng": "^1.0.0",
     "@types/node": "^24.0.0",
     "@types/react": "^19.2.0",
     "@types/react-dom": "^19.2.0",
@@ -67,6 +72,21 @@
       "allowToChangeInstallationDirectory": true,
       "createDesktopShortcut": true,
       "shortcutName": "海克斯大乱斗助手"
-    }
+    },
+    "asarUnpack": [
+      "node_modules/**"
+    ],
+    "extraResources": [
+      {
+        "from": "resources/recognition",
+        "to": "recognition",
+        "filter": [
+          "models/*.traineddata.gz",
+          "icons/*.png",
+          "icons.json",
+          "*.txt"
+        ]
+      }
+    ]
   }
 }
